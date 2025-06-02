@@ -135,7 +135,7 @@
 
             <div class="calendar row g-4"> <!-- g-4 for gap between cards -->
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image1.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image1.webp" alt="" loading="lazy"loading="lazy" class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Fit</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time: Slot 1 : 7-8 AM</div>
@@ -145,7 +145,7 @@
                     <hr>
                 </div>
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image2.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image2.webp" alt="" loading="lazy"loading="lazy"loading="lazy" class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Fit</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time: Slot 1 : 3-4 PM</div>
@@ -155,7 +155,7 @@
                     <hr>
                 </div>
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image3.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image3.webp" alt="" loading="lazy"loading="lazy"class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Heal</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time : Slot 1 : 8-9 PM</div>
@@ -165,7 +165,7 @@
                     <hr>
                 </div>
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image7.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image7.webp" alt="" loading="lazy"loading="lazy"class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Heal</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time : Slot 2 : 9-10 PM</div>
@@ -206,99 +206,99 @@
                     <div class="row portfolio-container">
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" >
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image1.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image1.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image1.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image1.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image2.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image2.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image2.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image2.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image3.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image3.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image3.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image3.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image4.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image4.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image4.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image4.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image5.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image5.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image5.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image5.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image6.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image6.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image6.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image6.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image7.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image7.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image7.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image7.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image8.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image8.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image8.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image8.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image9.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image9.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image9.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image9.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image10.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image10.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image10.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image10.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image11.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image11.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image11.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image11.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image12.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image12.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image12.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image12.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/image13.jpg" data-lightbox="portfolio">
-                                    <img src="./assets/images/image13.jpg" alt="Portfolio Image">
+                                <a href="./assets/images/image13.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/image13.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item soundhealing wow fadeInUp">
                             <div class="portfolio-wrap">
-                                <a href="./assets/images/soundhealing.png" data-lightbox="portfolio">
-                                    <img src="./assets/images/soundhealing.png" alt="Portfolio Image">
+                                <a href="./assets/images/soundhealing.webp" data-lightbox="portfolio">
+                                    <img src="./assets/images/soundhealing.webp" alt="Portfolio Image"  loading="lazy">
                                 </a>
                             </div>
                         </div>
@@ -328,10 +328,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video1.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video1.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -339,10 +339,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video12.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video2.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -350,10 +350,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video3.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video3.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -361,10 +361,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video1.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video4.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -372,10 +372,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video4.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video1.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -383,10 +383,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video5.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video5.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -394,10 +394,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video6.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video6.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -405,10 +405,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video7.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video7.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -416,10 +416,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video8.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video8.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -427,10 +427,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video9.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video9.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -438,10 +438,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video10.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video10.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -449,43 +449,43 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/video11.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/video11.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item soundhealing">
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/soundhealing.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/soundhealing1.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item soundhealing">
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/soundhealing.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/soundhealing2.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item soundhealing">
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
-                                <img src="./assets/thumbnail/soundhealing.png" alt="Video Thumbnail" class="thumbnail">
+                               <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
 
                                 <!-- Glightbox trigger -->
-                                <a href="./assets/videos/soundhealing3.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                <a href="https://www.youtube.com/watch?v=XbXt0H_wtDo" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
                                     <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
@@ -511,7 +511,7 @@
 
             <div class="calendar row g-4"> <!-- g-4 for gap between cards -->
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image1.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image1.webp" alt="" loading="lazy"class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Fit</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time: Slot 1 : 7-8 AM</div>
@@ -521,7 +521,7 @@
                     <hr>
                 </div>
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image2.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image2.webp" alt="" loading="lazy"class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Fit</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time: Slot 1 : 3-4 PM</div>
@@ -531,7 +531,7 @@
                     <hr>
                 </div>
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image3.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image3.webp" alt="" loading="lazy"class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Heal</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time : Slot 1 : 8-9 PM</div>
@@ -541,7 +541,7 @@
                     <hr>
                 </div>
                 <div class="calendar-event col-12 col-sm-6 col-md-3 slide-in-left pb-3">
-                    <div><img src="./assets/images/image7.jpg" alt="" class="img-fluid mb-2"></div>
+                    <div><img src="./assets/images/image7.webp" alt="" loading="lazy"class="img-fluid mb-2"></div>
                     <h6>FLAABH™ Heal</h6>
                     <!-- <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iusto delectus illo.</p> -->
                     <div class="event-date">Time : Slot 2 : 9-10 PM</div>
@@ -574,7 +574,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card shadow p-4 border-0 special-event-card h-100">
-                        <img src="./assets/images/image6.jpg" alt="">
+                        <img src="./assets/images/image6.webp" alt="">
                         <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
                         <p class="event-date text-muted">31st May 2025, Slot 1 : 7-8 AM</p>
                         <!-- <p class="card-text">
@@ -587,7 +587,7 @@
                 <!-- You can add more cards like this -->
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card shadow p-4 border-0 special-event-card h-100">
-                        <img src="./assets/images/image7.jpg" alt="">
+                        <img src="./assets/images/image7.webp" alt="">
                         <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
                         <p class="event-date text-muted">1st June 2025, Slot 1 : 3-4 PM</p>
                         <!-- <p class="card-text">
@@ -599,7 +599,7 @@
                 <!-- You can add more cards like this -->
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card shadow p-4 border-0 special-event-card h-100">
-                        <img src="./assets/images/image9.jpg" alt="">
+                        <img src="./assets/images/image9.webp" alt="">
                         <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
                         <p class="event-date text-muted">8th June 2025, Slot 1 : 8-9 PM , Slot 2 : 9-10 PM</p>
                         <!-- <p class="card-text">

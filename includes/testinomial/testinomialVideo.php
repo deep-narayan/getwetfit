@@ -1,101 +1,88 @@
+<!-- Session Review Section -->
 <div class="testimonial wow fadeInUp" data-wow-delay="0.1s">
-    <div class="d-flex justify-content-center align-items-center gap-2 text-center  my-4">
-        <i class="fa-regular fa-circle-dot text-white fs-4" style="color: #16B2FD !important;"></i>
-        <h4 class="tagline m-0" style="color: #FCFCFC;">Session<span style="color:#16B2FD;"> Review</span></h4>
-        <i class="fa-solid fa-arrow-right rotated-arrow text-white fs-4"></i>
-        
-    </div>
-    <div class="container">
-        <div class="owl-carousel testimonials-carousel">
-            <!-- Video Gallery -->
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video1.mp4" muted preload="none" poster="./assets/thumbnail/video1.png"  style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video2.mp4" muted preload="none" poster="./assets/thumbnail/video2.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video3.mp4" muted preload="none" poster="./assets/thumbnail/video3.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video4.mp4" muted preload="none" poster="./assets/thumbnail/video4.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video5.mp4" muted preload="none" poster="./assets/thumbnail/video5.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video6.mp4" muted preload="none" poster="./assets/thumbnail/video6.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video7.mp4" muted preload="none" poster="./assets/thumbnail/video7.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video8.mp4" muted preload="none" poster="./assets/thumbnail/video8.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video9.mp4" muted preload="none" poster="./assets/thumbnail/video9.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video10.mp4" muted preload="none" poster="./assets/thumbnail/video10.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video11.mp4" muted preload="none" poster="./assets/thumbnail/video11.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video12.mp4" muted preload="none" poster="./assets/thumbnail/video12.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
-            </div>
-            <!-- Add more videos similarly -->
+  <div class="d-flex justify-content-center align-items-center gap-2 text-center my-4">
+    <i class="fa-regular fa-circle-dot text-white fs-4" style="color: #16B2FD !important;"></i>
+    <h4 class="tagline m-0" style="color: #FCFCFC;">Session<span style="color:#16B2FD;"> Review</span></h4>
+    <i class="fa-solid fa-arrow-right rotated-arrow text-white fs-4"></i>
+  </div>
+
+  <div class="container">
+    <div class="owl-carousel testimonials-carousel">
+      <!-- YouTube Thumbnails with Data IDs -->
+      <div class="testimonial-text">
+        <div class="youtube-thumbnail" data-video-id="XbXt0H_wtDo">
+          <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Session 1" class="img-fluid" style="cursor: pointer;">
+          <div class="play-button"></div>
         </div>
+      </div>
+      <div class="testimonial-text">
+        <div class="youtube-thumbnail" data-video-id="XbXt0H_wtDo">
+          <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Session 1" class="img-fluid" style="cursor: pointer;">
+          <div class="play-button"></div>
+        </div>
+      </div>
+      <!-- Add more videos similarly -->
     </div>
+  </div>
 </div>
 
-
-<!-- Modal for Video Playback -->
+<!-- Modal -->
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content bg-dark">
       <div class="modal-body p-0 position-relative">
         <button id="closeBtn" class="close text-white" aria-label="Close"
-            style="position: absolute; top: 10px; right: 15px; z-index: 10; font-size: 2rem;">
-            <span aria-hidden="true">&times;</span>
+          style="position: absolute; top: 10px; right: 15px; z-index: 10; font-size: 2rem;">
+          <span aria-hidden="true">&times;</span>
         </button>
-
-        <video id="popupVideo" class="w-100" controls autoplay
-          style="max-height: 80vh; object-fit: contain;">
-          <source src="" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <div style="position:relative; width:100%; padding-bottom:56.25%;">
+          <iframe id="popupIframe" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- CSS for Play Button Overlay -->
+<style>
+  .youtube-thumbnail {
+    position: relative;
+    display: inline-block;
+  }
 
+  .youtube-thumbnail .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    background: url('https://img.icons8.com/ios-filled/100/ffffff/play--v1.png') no-repeat center;
+    background-size: 64px;
+    pointer-events: none;
+  }
+</style>
 
+<!-- JavaScript -->
 <script>
-  const videoTriggers = document.querySelectorAll('.video-trigger');
-  const popupVideo = document.getElementById('popupVideo');
+  const thumbnails = document.querySelectorAll('.youtube-thumbnail');
+  const popupIframe = document.getElementById('popupIframe');
   const videoModal = document.getElementById('videoModal');
   const closeBtn = document.getElementById('closeBtn');
-  const videoSource = popupVideo.querySelector('source');
 
-  // Show video modal and play selected video
-  videoTriggers.forEach(trigger => {
-    trigger.addEventListener('click', function () {
-      const videoSrc = this.getAttribute('data-video');
-      videoSource.src = videoSrc;
-      popupVideo.load();
+  thumbnails.forEach(thumb => {
+    thumb.addEventListener('click', () => {
+      const videoId = thumb.getAttribute('data-video-id');
+      popupIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      $('#videoModal').modal('show');
     });
   });
 
-    closeBtn.addEventListener('click', function () {
-        $('#videoModal').modal('hide');
-    });
+  closeBtn.addEventListener('click', () => $('#videoModal').modal('hide'));
 
-  videoModal.addEventListener('hidden.bs.modal', function () {
-  popupVideo.pause();
-  popupVideo.currentTime = 0;
-  videoSource.src = '';
-  popupVideo.load();
-});
+  videoModal.addEventListener('hidden.bs.modal', () => {
+    popupIframe.src = '';
+  });
 </script>

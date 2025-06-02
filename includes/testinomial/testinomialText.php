@@ -10,7 +10,7 @@
         <div class="owl-carousel testimonials-carousel">
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-2.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-2.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -21,7 +21,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-1.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-1.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -32,7 +32,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-4.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -43,7 +43,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-3.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-3.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -54,7 +54,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-4.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -65,7 +65,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-4.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -76,7 +76,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-1.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-1.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -87,7 +87,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-3.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-3.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -98,7 +98,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-4.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -109,7 +109,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-3.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-3.webp" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>

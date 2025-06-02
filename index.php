@@ -37,24 +37,24 @@ include 'layouts/header.php';
                             
                         </div>
                         <div class="box1 i2">
-                            <img src="./assets/images/image1.jpg" alt="Yoga 2">
+                            <img src="./assets/images/image1.webp" alt="Yoga 2">
                         </div>
                     </div>
                     <div class="main-box2">
                         <div class="box1 i3">
-                            <img src="./assets/images/image14.jpg" alt="Yoga 3">
+                            <img src="./assets/images/image14.webp" alt="Yoga 3">
                         </div>
                         <div class="box1 i4">
                             
                         </div>
                     </div>
                     <div class="main-box3">
-                        <div class="box1 i5"><img src="./assets/images/image15.jpg" alt="Yoga 1"></div>
-                        <div class="box1 i6"><img src="./assets/images/image3.jpg" alt="Yoga 4"></div>
+                        <div class="box1 i5"><img src="./assets/images/image15.webp" alt="Yoga 1"></div>
+                        <div class="box1 i6"><img src="./assets/images/image3.webp" alt="Yoga 4"></div>
                     </div>
                     <div class="main-box4 d-none d-md-block ">
                         <div class="box1 i7"></div>
-                        <div class="box1 i8"></div>
+                        <div class="box1 i8"><img src="./assets/images/image8.webp" alt="Yoga 4"></div>
                     </div>
                 </section>
             </div>
@@ -67,15 +67,15 @@ include 'layouts/header.php';
 <div class="main-online-training-box">
     <div class="online-training1">
         <h6>Flaabh </h6>
-        <img src="./assets/images/image1.jpg" alt="">
+        <img src="./assets/images/image1.webp" alt="">
     </div>
     <div class="online-training1">
         <h6>Sound Healing</h6>
-        <img src="./assets/images/soundhealing.png" alt="">
+        <img src="./assets/images/soundhealing.webp" alt="">
     </div>
     <div class="online-training1">
         <h6>Retreat</h6>
-        <img src="./assets/images/comingsoon.png" alt="">
+        <img src="./assets/images/comingsoon.webp" alt="">
     </div>
 </div>
 
@@ -83,11 +83,11 @@ include 'layouts/header.php';
 
 <div class="training-photos-main-box">
     <div class="training-photos1">
-        <img src="./assets/images/image8.jpg" alt="">
+        <img src="./assets/images/image8.webp" alt="">
         <!-- <p>FLAABH SESSION</p> -->
     </div>
     <div class="training-photos2">
-        <img src="./assets/images/image4.jpg" alt="">
+        <img src="./assets/images/image4.webp" alt="">
         <!-- <P>FLAABH SESSION</P> -->
     </div>
 </div>
@@ -112,13 +112,13 @@ include 'layouts/header.php';
 <div class="sessions-photos-mainbox">
     <div class="sessions-photo1">
         <div class="image-container">
-            <img src="./assets/images/image6.jpg" alt="">
+            <img src="./assets/images/image6.webp" alt="">
             <p class="image-name">Flaabh sessions</p>
         </div>
     </div>
     <div class="sessions-photo2">
         <div class="image-container">
-            <img src="./assets/images/soundhealing.png" alt="">
+            <img src="./assets/images/soundhealing.webp" alt="">
             <p class="image-name">Sound Healing experiences</p>
         </div>
     </div>
@@ -161,12 +161,12 @@ include 'includes/testinomial/testinomialVideo.php';
 <section class="instagram-section">
   <h1 class="section-title">Follow Us On <span>Instagram</span></h1>
   <div class="instagram-gallery">
-    <img src="./assets/images/image7.jpg" alt="Instagram post">
-    <img src="./assets/images/image4.jpg" alt="Instagram post">
-    <img src="./assets/images/image2.jpg" alt="Instagram post">
-    <img src="./assets/images/image8.jpg" alt="Instagram post">
-    <img src="./assets/images/image9.jpg" alt="Instagram post">
-    <img src="./assets/images/image10.jpg" alt="Instagram post">
+    <img src="./assets/images/image7.webp" alt="Instagram post">
+    <img src="./assets/images/image4.webp" alt="Instagram post">
+    <img src="./assets/images/image2.webp" alt="Instagram post">
+    <img src="./assets/images/image8.webp" alt="Instagram post">
+    <img src="./assets/images/image9.webp" alt="Instagram post">
+    <img src="./assets/images/image10.webp" alt="Instagram post">
   </div>
 </section>
 

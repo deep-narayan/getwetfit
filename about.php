@@ -72,16 +72,16 @@
             <div class="col-lg-6">
                 <div class="image-grid">
                     <div class="image-box fade-in delay-1">
-                        <img src="./assets/images/image1.jpg" alt="Yoga Float 1">
+                        <img src="./assets/images/image1.webp" alt="Yoga Float 1">
                     </div>
                     <div class="image-box fade-in delay-2">
-                        <img src="./assets/images/image6.jpg" alt="Yoga Float 2" style="height:400px;object-fit: cover;">
+                        <img src="./assets/images/image6.webp" alt="Yoga Float 2" style="height:400px;object-fit: cover;">
                     </div>
                     <div class="image-box fade-in delay-3">
-                        <img src="./assets/images/image4.jpg" alt="Yoga Float 3">
+                        <img src="./assets/images/image4.webp" alt="Yoga Float 3">
                     </div>
                     <div class="image-box fade-in delay-3">
-                        <img src="./assets/images/image8.jpg" alt="Yoga Float 3">
+                        <img src="./assets/images/image8.webp" alt="Yoga Float 3">
                     </div>
                 </div>
             </div>
@@ -110,12 +110,12 @@ include 'includes/testinomial/testinomialVideo.php';
 <section class="instagram-section">
   <h1 class="section-title">Follow Us On <span>Instagram</span></h1>
   <div class="instagram-gallery">
-    <img src="./assets/images/image7.jpg" alt="Instagram post">
-    <img src="./assets/images/image4.jpg" alt="Instagram post">
-    <img src="./assets/images/image2.jpg" alt="Instagram post">
-    <img src="./assets/images/image8.jpg" alt="Instagram post">
-    <img src="./assets/images/image9.jpg" alt="Instagram post">
-    <img src="./assets/images/image10.jpg" alt="Instagram post">
+    <img src="./assets/images/image7.webp" alt="Instagram post">
+    <img src="./assets/images/image4.webp" alt="Instagram post">
+    <img src="./assets/images/image2.webp" alt="Instagram post">
+    <img src="./assets/images/image8.webp" alt="Instagram post">
+    <img src="./assets/images/image9.webp" alt="Instagram post">
+    <img src="./assets/images/image10.webp" alt="Instagram post">
   </div>
 </section>
 

@@ -50,7 +50,7 @@ include 'layouts/header.php';
         <!-- Program 1: Flaabh -->
         <div class="program-card wow fadeInLeft">
             <div class="program-image">
-                <img src="./assets/images/image1.jpg" alt="Flaabh Program" class="img-fluid">
+                <img src="./assets/images/image1.webp" alt="Flaabh Program" class="img-fluid">
             </div>
             <div class="program-details">
                 <h3 class="program-title">1. Flaabh – Fitness Over Water</h3>
@@ -91,14 +91,14 @@ include 'layouts/header.php';
                 </div>
             </div>
             <div class="program-image">
-                <img src="./assets/images/soundhealing.png" alt="Sound Healing Program" class="img-fluid">
+                <img src="./assets/images/soundhealing.webp" alt="Sound Healing Program" class="img-fluid">
             </div>
         </div>
 
         <!-- Program 3: Retreat Programs -->
         <div class="program-card wow fadeInLeft">
             <div class="program-image">
-                <img src="./assets/images/comingsoon.png" alt="Retreat Programs" class="img-fluid" style="object-fit:content;">
+                <img src="./assets/images/comingsoon.webp" alt="Retreat Programs" class="img-fluid" style="object-fit:content;">
             </div>
             <div class="program-details">
                 <h3 class="program-title">3. Retreat Programs – The Ultimate Wellness Experience</h3>
@@ -138,12 +138,12 @@ include 'includes/testinomial/testinomialVideo.php';
 <section class="instagram-section">
   <h1 class="section-title">Follow Us On <span>Instagram</span></h1>
   <div class="instagram-gallery">
-    <img src="./assets/images/image7.jpg" alt="Instagram post">
-    <img src="./assets/images/image4.jpg" alt="Instagram post">
-    <img src="./assets/images/image2.jpg" alt="Instagram post">
-    <img src="./assets/images/image8.jpg" alt="Instagram post">
-    <img src="./assets/images/image9.jpg" alt="Instagram post">
-    <img src="./assets/images/image10.jpg" alt="Instagram post">
+    <img src="./assets/images/image7.webp" alt="Instagram post">
+    <img src="./assets/images/image4.webp" alt="Instagram post">
+    <img src="./assets/images/image2.webp" alt="Instagram post">
+    <img src="./assets/images/image8.webp" alt="Instagram post">
+    <img src="./assets/images/image9.webp" alt="Instagram post">
+    <img src="./assets/images/image10.webp" alt="Instagram post">
   </div>
 </section>
 <?php

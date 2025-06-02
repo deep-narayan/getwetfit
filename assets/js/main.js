@@ -121,6 +121,20 @@
         $(this).addClass('filter-active');
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+
+    //video filter
+    var videoIsotope = $('.video-scroll-container').isotope({
+        itemSelector: '.video-session-item',
+        layoutMode: 'fitRows',
+        percentPosition: true
+
+    });
+
+    $('#video-filter li').on('click', function () {
+        $("#video-filter li").removeClass('filter-active');
+        $(this).addClass('filter-active');
+        videoIsotope.isotope({filter: $(this).data('filter')});
+    });
     
 })(jQuery);
 

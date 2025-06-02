@@ -9,84 +9,41 @@
         <div class="owl-carousel testimonials-carousel">
             <!-- Video Gallery -->
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video1.mp4" muted>
-                    <source src="./assets/videos/video1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video1.mp4" muted preload="none" poster="./assets/thumbnail/video1.png"  style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video2.mp4" muted>
-                    <source src="./assets/videos/video2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video2.mp4" muted preload="none" poster="./assets/thumbnail/video2.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video3.mp4" muted>
-                    <source src="./assets/videos/video3.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video3.mp4" muted preload="none" poster="./assets/thumbnail/video3.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video4.mp4" muted>
-                    <source src="./assets/videos/video4.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video4.mp4" muted preload="none" poster="./assets/thumbnail/video4.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video5.mp4" muted>
-                    <source src="./assets/videos/video5.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video5.mp4" muted preload="none" poster="./assets/thumbnail/video5.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video6.mp4" muted>
-                    <source src="./assets/videos/video6.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video6.mp4" muted preload="none" poster="./assets/thumbnail/video6.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video7.mp4" muted>
-                    <source src="./assets/videos/video7.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video7.mp4" muted preload="none" poster="./assets/thumbnail/video7.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video8.mp4" muted>
-                    <source src="./assets/videos/video8.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video8.mp4" muted preload="none" poster="./assets/thumbnail/video8.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video9.mp4" muted>
-                    <source src="./assets/videos/video9.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video9.mp4" muted preload="none" poster="./assets/thumbnail/video9.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video10.mp4" muted>
-                    <source src="./assets/videos/video10.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video10.mp4" muted preload="none" poster="./assets/thumbnail/video10.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video11.mp4" muted>
-                    <source src="./assets/videos/video11.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video11.mp4" muted preload="none" poster="./assets/thumbnail/video11.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
             <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video12.mp4" muted>
-                    <source src="./assets/videos/video12.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video12.mp4" muted preload="none" poster="./assets/thumbnail/video12.png" style="width: 400px; height: 400px; object-fit: contain;"></video>
             </div>
-            <div class="testimonial-text">
-                <video class="video-trigger img-fluid" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="./assets/videos/video13.mp4" muted>
-                    <source src="./assets/videos/video13.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            
             <!-- Add more videos similarly -->
         </div>
     </div>

@@ -65,7 +65,7 @@
                         <li>🧘 Calm, balance, and renewed energy</li>
                         <li>🌊 A playful, transformative lifestyle shift</li>
                     </ul>
-                    <a href="contact.php" class="btn-learn">Learn More</a>
+                    <a href="contact.php" class="btn-learn" style="margin-bottom: 4px;">Learn More</a>
                 </div>
             </div>
             <!-- Images Column -->

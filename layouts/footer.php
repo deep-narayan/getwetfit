@@ -35,10 +35,13 @@
         <h4>Useful Links</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Visit Us</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="programs.php">Programs</a></li>
+          <li><a href="gallery_events.php">Gallery & Events</a></li>
+          <li><a href="price.php">Price</a></li>
+          <li><a href="contact_us.php">Contact Us</a></li>
+          <li><a href="faq.php">FaQ</a></li>
+
         </ul>
       </div>
 
@@ -73,7 +76,7 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
+<!-- <script src="lib/easing/easing.min.js"></script> -->
 <script src="lib/wow/wow.min.js"></script>
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 <script src="lib/isotope/isotope.pkgd.min.js"></script>
@@ -95,9 +98,9 @@ const lightbox = GLightbox({
 });
 
 </script>
-<!-- Contact Javascript File -->
+<!-- Contact Javascript File
 <script src="mail/jqBootstrapValidation.min.js"></script>
-<script src="mail/contact.js"></script>
+<script src="mail/contact.js"></script> -->
 
 <!-- Template Javascript -->
 <script src="./assets/js/main.js"></script>

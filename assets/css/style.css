@@ -1619,7 +1619,7 @@ text-align: center;
 
 
 /* Gallery Images */
-.gallery-section {
+/* .gallery-section {
     background-color: black;
 }
 
@@ -1660,7 +1660,7 @@ img, video {
     .photo-gallery .col-md-6, .video-gallery .col-md-6 {
         margin-bottom: 15px;
     }
-}
+} */
 
 /*******************************/
 /******** Portfolio CSS ********/
@@ -1727,6 +1727,115 @@ img, video {
 }
 
 
+/* video session */
+ 
+.video-session-gallery {
+    position: relative;
+    padding: 45px 0 15px 0;
+}
+.video-session-item {
+  box-sizing: border-box;
+}
+
+.video-session-gallery #video-filter {
+    padding: 0;
+    margin: -15px 0 25px 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+.video-session-gallery #video-filter li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 12px;
+    color: #343148;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    background: none;
+    border: 1px solid #343148;
+    transition: .3s;
+}
+
+.video-session-gallery #video-filter li:hover,
+.video-session-gallery #video-filter li.filter-active {
+    background: #343148;
+    color: #F7CAC9;
+}
+
+.video-session-item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.video-session-wrap {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image1.jpg); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px; 
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.video-scroll-container {
+    max-height: 600px;
+    overflow-y: overlay; /* Allows scrolling without shrinking content area */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+/* Optional: style the scrollbar (for WebKit browsers) */
+.video-scroll-container::-webkit-scrollbar {
+    width: 6px;
+}
+.video-scroll-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.video-scroll-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+.video-session-wrap {
+    position: relative;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-color: #000;
+    overflow: hidden;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+.video-session-wrap .thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.video-session-wrap a {
+    z-index: 2;
+    text-decoration: none;
+}
+
+.video-session-wrap:hover .thumbnail {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
 /* Event Highlights */
 .gallery-events .event-card {
     background-color: #fff;
@@ -1740,6 +1849,7 @@ img, video {
 .gallery-events .event-card:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
 
 
 /* Special Events */

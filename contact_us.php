@@ -1,19 +1,24 @@
 <?php
 include 'layouts/header.php';
 
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
+  $data = [
+    'name' => $_POST['fullname'],
+    'number' => $_POST['contact'],
+    'email' => $_POST['email'],
+    'age' => $_POST['age'],
+    'gender' => $_POST['gender'],
+    'height' => $_POST['height'],
+    'swim' => $_POST['swim'],
+    'join' => implode(", ", $_POST['join']),
+    'address' => $_POST['address'],
+    'message' => $_POST['message']
+  ];
 
-  $name = $_POST['fullname'];
-  $number = $_POST['contact'];
-  $email = $_POST['email'];
-  $age = $_POST['age'];
-  $gender = $_POST['gender'];
-  $height = $_POST['height'];
-  $swim = $_POST['swim'];
-  $join = $_POST['join'];
-  $address = $_POST['address'];
-  $message = $_POST['message'];
+  $json_data = json_encode($data);
+  
 }
+
 
 ?>
 
@@ -163,12 +168,7 @@ if(isset($_POST['submit'])){
   </form>
 </div>
 
-<script>
-  document.getElementById('submitBtn').addEventListener('click', function () {
-    this.classList.add('submitted');
-    this.innerText = 'Submitted';
-  });
-</script>
+
 
 
 <?php

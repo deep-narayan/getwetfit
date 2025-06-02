@@ -10,7 +10,7 @@
         <div class="owl-carousel testimonials-carousel">
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-1.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-2.jpg" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -21,18 +21,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-2.jpg" alt="Image">
-                </div>
-                <div class="testimonial-text">
-                    <p>
-                        "As a working mom, I needed a workout that didn’t kill my joints. FLAABH™ Fit’s aqua yoga at Ananta was perfect—low-impact, high-energy, and so refreshing. I feel toned and energized!"
-                    </p>
-                    <h3>Priya, 32, Bengaluru</h3>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-3.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-1.jpg" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -54,7 +43,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-3.jpg" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -87,7 +76,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-1.jpg" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -98,7 +87,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-3.jpg" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>
@@ -120,7 +109,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-img">
-                    <img src="./assets/images/testimonial-4.jpg" alt="Image">
+                    <img src="./assets/images/testimonial-3.jpg" alt="Image">
                 </div>
                 <div class="testimonial-text">
                     <p>

@@ -204,98 +204,98 @@
                         </div>
                     </div>
                     <div class="row portfolio-container">
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" >
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image1.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image1.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image2.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image2.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image3.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image3.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image4.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image4.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image5.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image5.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image6.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image6.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image7.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image7.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image8.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image8.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image9.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image9.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image10.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image10.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image11.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image11.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image12.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image12.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/image13.jpg" data-lightbox="portfolio">
                                     <img src="./assets/images/image13.jpg" alt="Portfolio Image">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item soundhealing wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item soundhealing wow fadeInUp">
                             <div class="portfolio-wrap">
                                 <a href="./assets/images/soundhealing.png" data-lightbox="portfolio">
                                     <img src="./assets/images/soundhealing.png" alt="Portfolio Image">
@@ -307,108 +307,195 @@
                 </div>
             </div>
             <!-- Portfolio Start -->
-            <!-- Your Carousel -->
-            <div class="portfolio">
+            <div class="video-session-gallery">
                 <div class="container">
-                    <div class="d-flex justify-content-center align-items-center gap-2 text-center  my-4">
+                    <div class="d-flex justify-content-center align-items-center gap-2 text-center my-4">
                         <i class="fa-regular fa-circle-dot text-white fs-4" style="color: #16B2FD !important;"></i>
                         <h4 class="tagline m-0" style="color: #FCFCFC;">Session<span style="color:#16B2FD;"> Videos</span></h4>
                         <i class="fa-solid fa-arrow-right rotated-arrow text-white fs-4"></i>
-                        
                     </div>
-                    <div class="row portfolio-container">
-                        
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/video1.mp4" class="glightbox" data-type="video">
-                                    <video class="img-fluid" muted>
-                                        <source src="./assets/videos/video1.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul id="video-filter">
+                                <li data-filter="*" class="videofilter-active">All</li>
+                                <li data-filter=".flaabh">Flaabh Session</li>
+                                <li data-filter=".soundhealing">Sound Healing Session</li>
+                                <li data-filter=".third">Retreat Session</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row video-scroll-container">
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video1.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video1.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/video2.mp4" class="glightbox" data-type="video">
-                                    <video  muted class="img-fluid" muted>
-                                        <source src="./assets/videos/video2.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video12.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video2.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/video3.mp4" class="glightbox" data-type="video">
-                                    <video class="img-fluid" muted>
-                                        <source src="./assets/videos/video3.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video3.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video3.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/video4.mp4" class="glightbox" data-type="video">
-                                    <video class="img-fluid" muted>
-                                        <source src="./assets/videos/video4.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video1.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video4.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/video5.mp4" class="glightbox" data-type="video">
-                                    <video class="img-fluid" muted>
-                                        <source src="./assets/videos/video5.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video4.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video1.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item flaabh wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/video6.mp4" class="glightbox" data-type="video">
-                                    <video class="img-fluid" muted>
-                                        <source src="./assets/videos/video6.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video5.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video5.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item soundhealing wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/soundhealing1.mp4" class="glightbox" data-type="video">
-                                    <video class="img-fluid" muted>
-                                        <source src="./assets/videos/soundhealing1.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video6.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video6.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item soundhealing wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/soundhealing2.mp4" class="glightbox" data-type="video">
-                                    <img src="./assets/images/soundhealing.png" alt="">
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video7.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video7.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item soundhealing wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="portfolio-wrap">
-                                <a href="./assets/videos/soundhealing3.mp4" class="glightbox" data-type="video">
-                                    <video class="img-fluid" muted>
-                                        <source src="./assets/videos/soundhealing3.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video8.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video8.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
                                 </a>
                             </div>
                         </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video9.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video9.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video10.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video10.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/video11.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/video11.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item soundhealing">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/soundhealing.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/soundhealing1.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item soundhealing">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/soundhealing.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/soundhealing2.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item soundhealing">
+                            <div class="video-session-wrap position-relative">
+                                <!-- Background image (optional) -->
+                                <img src="./assets/thumbnail/soundhealing.png" alt="Video Thumbnail" class="thumbnail">
+
+                                <!-- Glightbox trigger -->
+                                <a href="./assets/videos/soundhealing3.mp4" class="glightbox d-flex justify-content-center align-items-center w-100 h-100 position-absolute top-0 start-0" data-type="video">
+                                    <i class="fa fa-play-circle fa-3x text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Repeat blocks as needed -->
                     </div>
                 </div>
-            </div>     
-        </div>
+            </div>
+
+
 
 
 

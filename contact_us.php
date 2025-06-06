@@ -56,9 +56,10 @@ if (isset($_POST['submit'])) {
       ";
 
       $mail->send();
-      echo "<script>alert('Message has been sent successfully!');</script>";
+      echo "<script>alert('We will contact you shortly!');</script>";
   } catch (Exception $e) {
-      echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
+      // echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
+      echo "<script>alert('Some error occured please contact on : 9582384888!');</script>";
   }
   
 }

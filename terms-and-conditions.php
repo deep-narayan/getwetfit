@@ -13,7 +13,7 @@
 <div class="container d-flex justify-content-center">
   <div class="policy-container">
     <div class="text-center mb-5">
-      <h1>Ter & Conditions </h1>
+      <h1>Terms & Conditions </h1>
       <p class="text-muted">Effective Date: 27-05-2025</p>
     </div>
 

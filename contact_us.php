@@ -31,13 +31,13 @@ if (isset($_POST['submit'])) {
       $mail->isSMTP();
       $mail->Host       = 'smtp.gmail.com';
       $mail->SMTPAuth   = true;
-      $mail->Username   = 'akshayrathore9025@gmail.com';
-      $mail->Password   = 'medznhealyctnerw';
+      $mail->Username   = 'team.getwetfit@gmail.com';
+      $mail->Password   = 'qsiorgpflxoslhgz';
       $mail->SMTPSecure = 'tls';
       $mail->Port       = 587;
 
-      $mail->setFrom('akshayrathore9025@gmail.com', 'GetWetFit');
-      $mail->addAddress('akshayrathore9025@gmail.com');
+      $mail->setFrom('team.getwetfit@gmail.com', 'GetWetFit');
+      $mail->addAddress('team.getwetfit@gmail.com');
 
       $mail->isHTML(true);
       $mail->Subject = 'New Contact Submission - GetWetFit';

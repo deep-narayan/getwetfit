@@ -8,5 +8,5 @@ chdir($repoDir);
 // Pull the latest code
 $output = shell_exec('git pull 2>&1');
 
-echo "<pre>$output</pre>";
+echo "<pre>Get Wet Fit $output</pre>";
 ?>

@@ -26,7 +26,60 @@
         </div>
         <div class="col-md-2 text-center">
         <small class="d-md-none text-muted">Date</small>
-        <p>31-05-2025</p>
+        <p>08-06-2025</p>
+        </div>
+        <div class="col-md-3 text-center">
+        <small class="d-md-none text-muted">Time</small>
+        <p>Slot 1 : 7-8 AM</p>
+        <p>Slot 2 : 3-4 PM</p>
+        </div>
+        
+        <div class="col-md-3 text-center">
+        <small class="d-md-none text-muted">Location</small>
+        <p>Crowne Plaza Rohini</p>
+        </div>
+        
+        <div class="col-md-1 text-center">
+        <small class="d-md-none text-muted"></small>
+        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
+        </div>
+    </div>
+    <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
+    <div class="row align-items-start text-center mb-4 text-white">
+        <div class="col-md-3">
+        <small class="d-md-none text-muted">Class Details</small>
+        <h5>Session</h5>
+        <p class="text-muted">▶FLAABH™ Fit</p>
+        </div>
+        <div class="col-md-2 text-center">
+        <small class="d-md-none text-muted">Date</small>
+        <p>08-06-2025</p>
+        </div>
+        <div class="col-md-3 text-center">
+        <small class="d-md-none text-muted">Time</small>
+        <p>Slot 1 : 7-8 AM</p>
+        </div>
+        
+        <div class="col-md-3 text-center">
+        <small class="d-md-none text-muted">Location</small>
+        <p>Central Park Resorts Sector-48, Gurugram</p>
+        </div>
+        
+        <div class="col-md-1 text-center">
+        <small class="d-md-none text-muted"></small>
+        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
+        </div>
+    </div>
+    <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
+    <div class="row align-items-start text-center mb-4 text-white">
+        <div class="col-md-3">
+        <small class="d-md-none text-muted">Class Details</small>
+        <h5>Session</h5>
+        <p class="text-muted">▶FLAABH™ Fit</p>
+        </div>
+        <div class="col-md-2 text-center">
+        <small class="d-md-none text-muted">Date</small>
+        <p>07-06-2025</p>
         </div>
         <div class="col-md-3 text-center">
         <small class="d-md-none text-muted">Time</small>
@@ -36,6 +89,32 @@
         <div class="col-md-3 text-center">
         <small class="d-md-none text-muted">Location</small>
         <p>Crowne Plaza Rohini</p>
+        </div>
+        
+        <div class="col-md-1 text-center">
+        <small class="d-md-none text-muted"></small>
+        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
+        </div>
+    </div>
+    <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
+    <div class="row align-items-start text-center mb-4 text-white">
+        <div class="col-md-3">
+        <small class="d-md-none text-muted">Class Details</small>
+        <h5>Session</h5>
+        <p class="text-muted">▶FLAABH™ Fit</p>
+        </div>
+        <div class="col-md-2 text-center">
+        <small class="d-md-none text-muted">Date</small>
+        <p>07-06-2025</p>
+        </div>
+        <div class="col-md-3 text-center">
+        <small class="d-md-none text-muted">Time</small>
+        <p>4:30-5:30 AM</p>
+        </div>
+        
+        <div class="col-md-3 text-center">
+        <small class="d-md-none text-muted">Location</small>
+        <p>Central Park Resorts Sector-48, Gurugram</p>
         </div>
         
         <div class="col-md-1 text-center">
@@ -72,22 +151,19 @@
         </div>
     </div>
     <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
-
-    <!-- Event 3 -->
-    <div class="row align-items-start mb-4 text-center text-white">
+    <div class="row align-items-start text-center mb-4 text-white">
         <div class="col-md-3">
         <small class="d-md-none text-muted">Class Details</small>
         <h5>Session</h5>
-        <p class="text-muted">▶FLAABH™ Heal</p>
+        <p class="text-muted">▶FLAABH™ Fit</p>
         </div>
         <div class="col-md-2 text-center">
         <small class="d-md-none text-muted">Date</small>
-        <p>8-06-2025</p>
+        <p>31-05-2025</p>
         </div>
         <div class="col-md-3 text-center">
         <small class="d-md-none text-muted">Time</small>
-        <p>Slot 1 : 8-9 PM</p>
-        <p>Slot 2 : 9-10 PM</p>
+        <p>Slot 1 : 7-8 AM</p>
         </div>
         
         <div class="col-md-3 text-center">

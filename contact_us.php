@@ -1,5 +1,7 @@
 <?php
 include 'layouts/header.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 if (isset($_POST['submit'])) {
   $data = [
@@ -16,6 +18,48 @@ if (isset($_POST['submit'])) {
   ];
 
   $json_data = json_encode($data);
+  // ✅ Paste your SMTP code here:
+
+
+  require 'PHPMailer-master/src/PHPMailer.php';
+  require 'PHPMailer-master/src/SMTP.php';
+  require 'PHPMailer-master/src/Exception.php';
+
+  $mail = new PHPMailer(true);
+
+  try {
+      $mail->isSMTP();
+      $mail->Host       = 'smtp.gmail.com';
+      $mail->SMTPAuth   = true;
+      $mail->Username   = 'akshayrathore9025@gmail.com';
+      $mail->Password   = 'medznhealyctnerw';
+      $mail->SMTPSecure = 'tls';
+      $mail->Port       = 587;
+
+      $mail->setFrom('akshayrathore9025@gmail.com', 'GetWetFit');
+      $mail->addAddress('akshayrathore9025@gmail.com');
+
+      $mail->isHTML(true);
+      $mail->Subject = 'New Contact Submission - GetWetFit';
+      $mail->Body    = "
+          <h3>Contact Form Details</h3>
+          <p><strong>Name:</strong> {$data['name']}</p>
+          <p><strong>Email:</strong> {$data['email']}</p>
+          <p><strong>Contact:</strong> {$data['number']}</p>
+          <p><strong>Age:</strong> {$data['age']}</p>
+          <p><strong>Gender:</strong> {$data['gender']}</p>
+          <p><strong>Height:</strong> {$data['height']}</p>
+          <p><strong>Swim:</strong> {$data['swim']}</p>
+          <p><strong>Join As:</strong> {$data['join']}</p>
+          <p><strong>Address:</strong> {$data['address']}</p>
+          <p><strong>Message:</strong><br>{$data['message']}</p>
+      ";
+
+      $mail->send();
+      echo "<script>alert('Message has been sent successfully!');</script>";
+  } catch (Exception $e) {
+      echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
+  }
   
 }
 

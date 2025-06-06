@@ -180,14 +180,14 @@
 
   // single-select-placeholder
   $(".single-select-placeholder").select2({
-      placeholder: "Select a state",
+      placeholder: "Join us as ",
       allowClear: true
   });
 
 
   // multi select placeholder
   $(".multi-select-placeholder").select2({
-      placeholder: "Select a state"
+      placeholder: "Join us as:"
   });
 
 

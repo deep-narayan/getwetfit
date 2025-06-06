@@ -79,6 +79,28 @@
 }
 
 
+.bg-image-container {
+    background-image: url('./assets/images/image2.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.card-overlay {
+  background-color: rgba(255, 255, 255, 0.25); /* more transparent white */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #000;
+  border-radius: 12px;
+}
+
+
+
+
+
+
 </style>
 
 <!-- Page Header Start -->
@@ -479,7 +501,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item flaabh">
+                        <div class="col-lg-4 col-md-6 col-sm-12 video-session-item soundhealing">
                             <div class="video-session-wrap position-relative">
                                 <!-- Background image (optional) -->
                                <img src="https://img.youtube.com/vi/XbXt0H_wtDo/hqdefault.jpg" alt="Video Thumbnail"  loading="lazy" class="thumbnail">
@@ -563,54 +585,46 @@
 
         <!-- Special Events -->
 
-        <div class="container special-events mt-5 zoom-in">
-            <div class="d-flex justify-content-center align-items-center gap-2 text-center  my-4">
-                <i class="fa-regular fa-circle-dot text-white fs-4" style="color: #16B2FD !important;"></i>
-                <h4 class="tagline m-0" style="color: #FCFCFC;">Upcoming Special<span style="color:#16B2FD;"> Events</span></h4>
-                <i class="fa-solid fa-arrow-right rotated-arrow text-white fs-4"></i>
-                
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card shadow p-4 border-0 special-event-card h-100">
-                        <img src="./assets/images/image6.webp" alt="">
-                        <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
-                        <p class="event-date text-muted">31st May 2025, Slot 1 : 7-8 AM</p>
-                        <!-- <p class="card-text">
-                            1-day wellness retreat with fitness, healing, and food.
-                        </p> -->
-                        <button class="btn btn-primary w-100 mt-auto">Register Now</button>
-                    </div>
+        <div class="container special-events mt-5 zoom-in ">
+            <div class="justify-content-start">
+                <div class="d-flex justify-content-center align-items-center gap-2 text-center my-4">
+                    <i class="fa-regular fa-circle-dot text-white fs-4" style="color: #16B2FD !important;"></i>
+                    <h4 class="tagline m-0" style="color: #FCFCFC;">Upcoming Special <span style="color:#16B2FD;">Events</span></h4>
+                    <i class="fa-solid fa-arrow-right rotated-arrow text-white fs-4"></i>
                 </div>
 
-                <!-- You can add more cards like this -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card shadow p-4 border-0 special-event-card h-100">
+                <div class="row justify-content-start">
+                    <div class="col-md-6 col-lg-4 mb-4 ">
+                        <div class="card shadow p-4 border-0 special-event-card h-100 card-overlay">
+                            <img src="./assets/images/image6.webp" alt="">
+                            <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
+                            <p class="event-date text-muted">31st May 2025, Slot 1 : 7-8 AM</p>
+                            <button class="btn btn-primary w-100 mt-auto">Register Now</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4 ">
+                        <div class="card shadow p-4 border-0 special-event-card h-100 card-overlay">
                         <img src="./assets/images/image7.webp" alt="">
                         <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
                         <p class="event-date text-muted">1st June 2025, Slot 1 : 3-4 PM</p>
-                        <!-- <p class="card-text">
-                            Morning yoga session with sea breeze and guided meditation.
-                        </p> -->
                         <button class="btn btn-primary w-100 mt-auto">Register Now</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4 ">
+                        <div class="card shadow p-4 border-0 special-event-card h-100 card-overlay">
+                            <img src="./assets/images/image9.webp" alt="">
+                            <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
+                            <p class="event-date text-muted">8th June 2025, Slot 1 : 8-9 PM , Slot 2 : 9-10 PM</p>
+                            <button class="btn btn-primary w-100 mt-auto">Register Now</button>
+                        </div>
                     </div>
                 </div>
-                <!-- You can add more cards like this -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card shadow p-4 border-0 special-event-card h-100">
-                        <img src="./assets/images/image9.webp" alt="">
-                        <h3 class="card-title">GetWetFit FLAABH™ Fit - Crowne Plaza Rohini</h3>
-                        <p class="event-date text-muted">8th June 2025, Slot 1 : 8-9 PM , Slot 2 : 9-10 PM</p>
-                        <!-- <p class="card-text">
-                            Morning yoga session with sea breeze and guided meditation.
-                        </p> -->
-                        <button class="btn btn-primary w-100 mt-auto">Register Now</button>
-                    </div>
-                </div>
-                <!-- You can add more cards like this -->
             </div>
         </div>
+
+
 
 
         <!-- RSVP

@@ -32,33 +32,31 @@ include './layouts/header.php'
 <div class="price">
     <div class="container">
         <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-            <p style="color:#FCFCFC;">Session Package</p>
-            <h2 style="color:#FCFCFC;">Yoga Pricing Plan</h2>
+            <p style="color:#FCFCFC;">Flaabh Fit Session</p>
+            <h2 style="color:#FCFCFC;">Package Price List</h2>
         </div>
         <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
                 <div class="price-item">
                     <div class="price-header">
                         <div class="price-title">
-                            <h2>Basic</h2>
+                            <h2>4 SESSIONS</h2>
                         </div>
                         <div class="price-prices">
-                            <h2><small>$</small>49<span>/ mo</span></h2>
+                            <h2><small><img src="./assets/images/rupee-indian.png" style="height:16px; filter: brightness(0) invert(1);"></small>6300<span>/-</span></h2>
                         </div>
                     </div>
                     <div class="price-body">
                         <div class="price-description">
                             <ul>
-                                <li>Personal Trainer</li>
-                                <li>Special Class</li>
-                                <li>Free Tutorials</li>
-                                <li>Group Training</li>
+                                <li>4 Sessions</li>
+                                <li>45 Days of validity</li>
                             </ul>
                         </div>
                     </div>
                     <div class="price-footer">
                         <div class="price-action">
-                            <a class="btn" href="">Join Now</a>
+                            <a class="btn" href="contact_us.php">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -67,28 +65,26 @@ include './layouts/header.php'
                 <div class="price-item featured-item">
                     <div class="price-header">
                         <div class="price-status">
-                            <span>Popular</span>
+                            <span>Recommended</span>
                         </div>
                         <div class="price-title">
-                            <h2>Standard</h2>
+                            <h2>8 SESSIONS</h2>
                         </div>
                         <div class="price-prices">
-                            <h2><small>$</small>99<span>/ mo</span></h2>
+                            <h2><small><img src="./assets/images/rupee-indian.png" style="height:16px; filter: invert(31%) sepia(76%) saturate(7141%) hue-rotate(189deg) brightness(96%) contrast(90%);"></small>11880<span>/-</span></h2>
                         </div>
                     </div>
                     <div class="price-body">
                         <div class="price-description">
                             <ul>
-                                <li>Personal Trainer</li>
-                                <li>Special Class</li>
-                                <li>Free Tutorials</li>
-                                <li>Group Training</li>
+                                <li> - 8 Sessions</li>
+                                <li> - 60 Days of validity</li>
                             </ul>
                         </div>
                     </div>
                     <div class="price-footer">
                         <div class="price-action">
-                            <a class="btn" href="">Join Now</a>
+                            <a class="btn" href="contact_us.php">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -97,45 +93,51 @@ include './layouts/header.php'
                 <div class="price-item">
                     <div class="price-header">
                         <div class="price-title">
-                            <h2>Premium</h2>
+                            <h2>12 SESSIONS</h2>
                         </div>
                         <div class="price-prices">
-                            <h2><small>$</small>149<span>/ mo</span></h2>
+                            <h2><small><img src="./assets/images/rupee-indian.png" style="height:16px; filter: brightness(0) invert(1);"></small>16740<span>/-</span></h2>
                         </div>
                     </div>
                     <div class="price-body">
                         <div class="price-description">
                             <ul>
-                                <li>Personal Trainer</li>
-                                <li>Special Class</li>
-                                <li>Free Tutorials</li>
-                                <li>Group Training</li>
+                                <li>- 12 Sessions</li>
+                                <li> - 75 Days of validity</li>
                             </ul>
                         </div>
                     </div>
                     <div class="price-footer">
                         <div class="price-action">
-                            <a class="btn" href="">Join Now</a>
+                            <a class="btn" href="contact_us.php">Join Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="text-center mt-4 d-flex flex-column align-items-center p-3" style="background-color: #1a1a1a; border-radius: 8px;">
+        <!-- <div style="font-weight: 600; font-size: 16px; color: #16B2FD; margin-bottom: 4px;">T&C</div> -->
+        <small style="color: #fcfcfc; display: block; font-size: 14px; max-width: 600px; font-style: italic;">
+            <span style="font-weight: 600; color: #16B2FD">T&C</span> : “Please note that prices may vary depending on the location. This is because local costs, taxes, and regulations can differ from one area to another, which can affect the final price you pay.”
+        </small>
+    </div>
+
 </div>
 <!-- Price End -->
 <!-- Discount Start -->
 <div class="discount wow zoomIn" data-wow-delay="0.1s" style="margin-bottom: 90px;">
     <div class="container">
         <div class="section-header text-center">
-            <p>Awesome Discount</p>
-            <h2 style="color: black;">Get <span>30%</span> Discount for all Classes</h2>
+            <!-- <p>Awesome Discount</p> -->
+            <!-- <h2 style="color: black;">Get <span>30%</span> Discount for all Classes</h2> -->
+             <h2 style="color: black;">Planning something special?</h2>
         </div>
         <div class="container discount-text">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                 Whether it’s a birthday bash, corporate gathering, personal celebration, or any kind of event — we bring the vibe, you make the memories. Get in touch to craft an unforgettable experience with us.
             </p>
-            <a class="btn">Join Now</a>
+            <a href="contact_us.php" class="btn">Join Now</a>
         </div>
     </div>
 </div>

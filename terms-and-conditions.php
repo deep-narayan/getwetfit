@@ -19,7 +19,7 @@
 
     <div class="policy-section my-4">
       <p>
-        These Terms and Conditions (“Terms”) govern your participation in all sessions, services, 
+        Thes Terms and Conditions (“Terms”) govern your participation in all sessions, services, 
         and activities offered by <strong>GetWetFit™ & Co.,</strong> including FLAABH™ Fit and Heal programs. 
         By booking or attending a session, you agree to be bound by these Terms and applicable laws 
         of India. 

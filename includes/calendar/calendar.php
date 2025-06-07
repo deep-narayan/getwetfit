@@ -41,7 +41,7 @@
         
         <div class="col-md-1 text-center">
         <small class="d-md-none text-muted"></small>
-        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
+        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;"><a href="contact_us.php" style="color:white;">Join</a></button>
         </div>
     </div>
     <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
@@ -67,7 +67,7 @@
         
         <div class="col-md-1 text-center">
         <small class="d-md-none text-muted"></small>
-        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
+        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;"><a href="contact_us.php" style="color:white;">Join</a></button>
         </div>
     </div>
     <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
@@ -93,7 +93,7 @@
         
         <div class="col-md-1 text-center">
         <small class="d-md-none text-muted"></small>
-        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
+        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;"><a href="contact_us.php" style="color:white;">Join</a></button>
         </div>
     </div>
     <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
@@ -119,62 +119,12 @@
         
         <div class="col-md-1 text-center">
         <small class="d-md-none text-muted"></small>
-        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
+        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;"><a href="contact_us.php" style="color:white;">Join</a></button>
         </div>
     </div>
     <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
 
     <!-- Duplicate structure for other events -->
-    <div class="row align-items-start text-center mb-4 text-white">
-        <div class="col-md-3">
-        <small class="d-md-none text-muted">Class Details</small>
-        <h5>Session</h5>
-        <p class="text-muted">▶FLAABH™ Fit</p>
-        </div>
-        <div class="col-md-2 text-center">
-        <small class="d-md-none text-muted">Date</small>
-        <p>1-06-2025</p>
-        </div>
-        <div class="col-md-3 text-center">
-        <small class="d-md-none text-muted">Time</small>
-        <p>Slot 1 : 3-4 PM</p>
-        </div>
-        
-        <div class="col-md-3 text-center">
-        <small class="d-md-none text-muted">Location</small>
-        <p>Crowne Plaza Rohini</p>
-        </div>
-        
-        <div class="col-md-1 text-center">
-        <small class="d-md-none text-muted"></small>
-        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
-        </div>
-    </div>
-    <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
-    <div class="row align-items-start text-center mb-4 text-white">
-        <div class="col-md-3">
-        <small class="d-md-none text-muted">Class Details</small>
-        <h5>Session</h5>
-        <p class="text-muted">▶FLAABH™ Fit</p>
-        </div>
-        <div class="col-md-2 text-center">
-        <small class="d-md-none text-muted">Date</small>
-        <p>31-05-2025</p>
-        </div>
-        <div class="col-md-3 text-center">
-        <small class="d-md-none text-muted">Time</small>
-        <p>Slot 1 : 7-8 AM</p>
-        </div>
-        
-        <div class="col-md-3 text-center">
-        <small class="d-md-none text-muted">Location</small>
-        <p>Crowne Plaza Rohini</p>
-        </div>
-        
-        <div class="col-md-1 text-center">
-        <small class="d-md-none text-muted"></small>
-        <button type="button" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">Join</button>
-        </div>
-    </div>
-    <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">
+   
+    
 </div>

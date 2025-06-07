@@ -84,11 +84,11 @@ include 'layouts/header.php';
 <div class="training-photos-main-box">
     <div class="training-photos1">
         <img src="./assets/images/image8.webp" alt="">
-        <!-- <p>FLAABH SESSION</p> -->
+        <!-- <p>FLAABH™ SESSION</p> -->
     </div>
     <div class="training-photos2">
         <img src="./assets/images/image4.webp" alt="">
-        <!-- <P>FLAABH SESSION</P> -->
+        <!-- <P>FLAABH™ SESSION</P> -->
     </div>
 </div>
 
@@ -113,7 +113,7 @@ include 'layouts/header.php';
     <div class="sessions-photo1">
         <div class="image-container">
             <img src="./assets/images/image6.webp" alt="">
-            <p class="image-name">Flaabh sessions</p>
+            <p class="image-name">FLAABH™ sessions</p>
         </div>
     </div>
     <div class="sessions-photo2">

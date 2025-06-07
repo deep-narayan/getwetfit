@@ -66,7 +66,7 @@ include 'layouts/header.php';
 <!-- Online Training -->
 <div class="main-online-training-box">
     <div class="online-training1">
-        <h6>Flaabh </h6>
+        <h6>FLAABH™ </h6>
         <img src="./assets/images/image1.webp" alt="">
     </div>
     <div class="online-training1">

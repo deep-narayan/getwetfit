@@ -144,8 +144,8 @@ $result = $stmt->fetchAll();
                         <?= date("g:i A", strtotime($resultValue['time'] ?? '07:00:00')) ?>
                     </div>
                     <p class="mb-1">Seats Available : <?= htmlspecialchars($resultValue['seats'] ?? 'N/A') ?></p>
-                    <p class="mb-1">price : <?= htmlspecialchars($resultValue['price'] ?? 'N/A') ?>(Including GST*)</p>
-                    <p class="mb-1"><?= date('jS M Y', strtotime($resultValue['date'])) ?></p>
+                    <p class="mb-1">Price : <?= htmlspecialchars($resultValue['price'] ?? 'N/A') ?>(Including GST*)</p>
+                    <p class="mb-1">Date :<?= date('jS M Y', strtotime($resultValue['date'])) ?></p>
                     <p class="mb-1">Contact: <?= htmlspecialchars($resultValue['contact'] ?? 'N/A') ?></p>
                     <p class="mb-0">Location: <?= htmlspecialchars($resultValue['state'] ?? ' ') . " " . htmlspecialchars($resultValue['city'] ?? ' ') . " " . htmlspecialchars($resultValue['addPlace'] ?? ' ') ?>.</p>
                     <hr>

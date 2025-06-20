@@ -11,17 +11,21 @@ function sendCustomMail($toEmail, $subject, $bodyHtml) {
     $mail = new PHPMailer(true);
 
     try {
-        $mail->isSMTP();
-        $mail->Host       = 'smtpout.secureserver.net';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'team@getwetfit.com';
-        $mail->Password   = 'getwetfit25';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port       = 587;
+        $mail->SMTPDebug = 0;
+      $mail->isSMTP();
+      $mail->Host       = 'localhost';
+      $mail->SMTPAuth   = true;
+      $mail->Username   = 'noreply@getwetfit.com';
+      $mail->Password   = '15@(+??ntM(8';
+      $mail->SMTPSecure = 'tls';
+      $mail->Port       = 587;
+      // $mail->SMTPSecure = false;  
 
+      
 
-        $mail->setFrom('team@getwetfit.com', 'GetWetFit&Co.');
-        $mail->addAddress($toEmail);
+      $mail->setFrom('noreply@getwetfit.com', 'GetWetFit&Co.');
+      $mail->addAddress($toEmail);
+      $mail->addBCC('aupadhydy007@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = $subject;

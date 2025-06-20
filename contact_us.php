@@ -46,19 +46,19 @@ if (isset($_POST['submit'])) {
   $mail = new PHPMailer(true);
 
   try {
-      $mail->SMTPDebug = 4;
+      $mail->SMTPDebug = 0;
       $mail->isSMTP();
       $mail->Host       = 'localhost';
       $mail->SMTPAuth   = true;
       $mail->Username   = 'noreply@getwetfit.com';
       $mail->Password   = '15@(+??ntM(8';
-      //$mail->SMTPSecure = 'ssl';
-      $mail->Port       = 25;
-      $mail->SMTPSecure = false;  
+      $mail->SMTPSecure = 'tls';
+      $mail->Port       = 587;
+      // $mail->SMTPSecure = false;  
 
       
 
-      $mail->setFrom('noreply@getwetfit.com', 'GetWetFit');
+      $mail->setFrom('noreply@getwetfit.com', 'GetWetFit&Co.');
       $mail->addAddress('noreply@getwetfit.com');
       $mail->addBCC('aupadhydy007@gmail.com');
 

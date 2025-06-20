@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
 
     try {
       $query = $conn->prepare("INSERT INTO LOGIN (name, contact, email, text, ccode, password) VALUES (?, ?, ?, ?, ?, ?)");
-      $query->execute([$name, $contact, $email, $text, $ccode, $hash_password]);
+      $query->execute([$name, $contact, $email, $password, $random_number, $hash_password]);
 
 
       // trigger modal if successful

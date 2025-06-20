@@ -12,15 +12,15 @@ function sendCustomMail($toEmail, $subject, $bodyHtml) {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
+        $mail->Host       = 'smtpout.secureserver.net';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'team.getwetfit@gmail.com';
-        $mail->Password   = 'qsiorgpflxoslhgz';
+        $mail->Username   = 'team@getwetfit.com';
+        $mail->Password   = 'getwetfit25';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
 
-        $mail->setFrom('team.getwetfit@gmail.com', 'GetWetFit&Co.');
+        $mail->setFrom('team@getwetfit.com', 'GetWetFit&Co.');
         $mail->addAddress($toEmail);
 
         $mail->isHTML(true);

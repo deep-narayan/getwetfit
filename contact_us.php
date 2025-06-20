@@ -47,17 +47,17 @@ if (isset($_POST['submit'])) {
 
   try {
       $mail->isSMTP();
-      $mail->Host       = 'smtp.gmail.com';
+      $mail->Host       = 'smtpout.secureserver.net';
       $mail->SMTPAuth   = true;
-      $mail->Username   = 'team.getwetfit@gmail.com';
-      $mail->Password   = 'qsiorgpflxoslhgz';
+      $mail->Username   = 'team@getwetfit.com';
+      $mail->Password   = 'getwetfit25';
       $mail->SMTPSecure = 'ssl';
       $mail->Port       = 465;
 
       
 
-      $mail->setFrom('team.getwetfit@gmail.com', 'GetWetFit');
-      $mail->addAddress('team.getwetfit@gmail.com');
+      $mail->setFrom('team@getwetfit.com', 'GetWetFit');
+      $mail->addAddress('team@getwetfit.com');
 
       $mail->isHTML(true);
       $mail->Subject = 'New Contact Submission - GetWetFit';

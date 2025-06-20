@@ -31,8 +31,7 @@ if (isset($_POST['submit'])) {
       $query->execute([$name, $contact, $email, $password, $random_number, $hash_password]);
 
 
-      // trigger modal if successful
-      $showModal = true;
+     
 
 
       
@@ -82,7 +81,8 @@ if (isset($_POST['submit'])) {
           echo "<script>alert('Some error occured please contact on : 9582384888!'.$e);</script>";
       }
 
-
+       // trigger modal if successful
+      $showModal = true;
 
     } catch (Exception $e) {
       echo "<script>alert('Error: " . $e->getMessage() . "')</script>";

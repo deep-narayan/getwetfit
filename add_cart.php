@@ -9,7 +9,7 @@ if (!is_numeric($id)) {
     redirect('main.php');
 }
 
-$getUser = $conn->prepare("SELECT * FROM login WHERE email = ?");
+$getUser = $conn->prepare("SELECT * FROM LOGIN WHERE email = ?");
 $getUser->execute([$email]);
 $result = $getUser->fetchAll();
 

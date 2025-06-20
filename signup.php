@@ -78,7 +78,9 @@ if (isset($_POST['submit'])) {
           echo "<script>alert('Check your mail and verify before login!');</script>";
       } catch (Exception $e) {
           // echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
-          echo "<script>alert('Some error occured please contact on : 9582384888!.$e');</script>";
+          echo "<script>alert('Some error occurred. Please contact us at 9582384888.');</script>";
+            // Optionally log the error for admin/debugging
+            error_log("Mailer Error: " . $mail->ErrorInfo);
       }
 
        // trigger modal if successful

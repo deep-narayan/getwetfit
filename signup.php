@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
     $hash_password = password_hash($password, PASSWORD_BCRYPT);
 
     try {
-      $query = $conn->prepare("INSERT INTO LOGIN (name, contact, email, text, ccode, password, date) VALUES (?, ?, ?, ?, ?, ?, NOW())");
+      $query = $conn->prepare("INSERT INTO LOGIN (name, contact, email, text, ccode, password) VALUES (?, ?, ?, ?, ?, ?)");
       $query->execute([$name, $contact, $email, $text, $ccode, $hash_password]);
 
 

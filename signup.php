@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
     $hash_password = password_hash($password, PASSWORD_BCRYPT);
 
     try {
-      $query = $conn->prepare("INSERT INTO login (name, contact, email, text, ccode, password, date) VALUES (?, ?, ?, ?, ?, ?, NOW())");
+      $query = $conn->prepare("INSERT INTO LOGIN (name, contact, email, text, ccode, password, date) VALUES (?, ?, ?, ?, ?, ?, NOW())");
       $query->execute([$name, $contact, $email, $text, $ccode, $hash_password]);
 
 
@@ -256,18 +256,18 @@ if (isset($_POST['submit'])) {
           <?php
           if (isset($_POST['verification_button'])) {
               $verification_code = $_POST['verification'];
-              $stmt = $conn->prepare("SELECT * FROM login WHERE ccode = :code");
+              $stmt = $conn->prepare("SELECT * FROM LOGIN WHERE ccode = :code");
               $stmt->bindParam(':code', $verification_code, PDO::PARAM_STR);
               $stmt->execute();
               $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
               if ($result && $verification === $result['code']) {
-                  $queryChecked = $conn->prepare("UPDATE login SET checked = 1 WHERE ccode = ?");
+                  $queryChecked = $conn->prepare("UPDATE LOGIN SET checked = 1 WHERE ccode = ?");
                   $queryChecked->execute([$verification_code]);
                   echo  "<script>alert('Verified successfully. Redirecting...')</script>";
                   redirect("login.php");
               } else {
-                 $deleteQuery = $conn->prepare("DELETE FROM login WHERE ccode = ?");
+                 $deleteQuery = $conn->prepare("DELETE FROM LOGIN WHERE ccode = ?");
                  $deleteQuery->execute([$random_number]);
                  echo  "<script>alert('Invalid verification code.')</script>";
               }

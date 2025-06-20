@@ -164,8 +164,8 @@ try {
         <div class="col-md-4 mb-4 mb-md-0 text-center">
           <div class="profile-card">
             <img src="<?= $user['image'] ? $user['image'] : 'https://via.placeholder.com/150' ?>" class="rounded-circle profile-img mb-3" alt="Profile Picture">
-            <h5 class="mb-1">Akshay Rathore</h5>
-            <p class="text-muted small">Member since 2024</p>
+            <h5 class="mb-1"><?= $userName ?></h5>
+            <p class="text-muted small">Member since 2025</p>
             <form action="" method="POST" enctype="multipart/form-data">
               <label for="photoUpload" class="edit-btn" style="cursor: pointer;">Edit Profile Photo</label>
               <input type="file" name="profile_photo" id="photoUpload" accept="image/*" style="display: none;" onchange="this.form.submit()">

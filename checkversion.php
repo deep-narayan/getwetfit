@@ -1,7 +1,7 @@
 <?php
-require 'path/to/PHPMailer.php'; // or autoload.php if using Composer
-require 'path/to/SMTP.php';
-require 'path/to/Exception.php';
+  require 'PHPMailer-master/src/PHPMailer.php';
+  require 'PHPMailer-master/src/SMTP.php';
+  require 'PHPMailer-master/src/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 

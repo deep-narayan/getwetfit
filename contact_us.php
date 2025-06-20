@@ -1,6 +1,11 @@
 <?php
 include 'layouts/header.php';
 include 'includes/config.php';
+
+  require 'PHPMailer-master/src/PHPMailer.php';
+  require 'PHPMailer-master/src/SMTP.php';
+  require 'PHPMailer-master/src/Exception.php';
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -36,9 +41,7 @@ if (isset($_POST['submit'])) {
   ]);
 
 
-  require 'PHPMailer-master/src/PHPMailer.php';
-  require 'PHPMailer-master/src/SMTP.php';
-  require 'PHPMailer-master/src/Exception.php';
+
 
   $mail = new PHPMailer(true);
 

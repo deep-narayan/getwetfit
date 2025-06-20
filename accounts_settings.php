@@ -40,7 +40,7 @@ try {
 
         if ($fileExt === 'webp') {
             if (move_uploaded_file($fileTmp, $targetWebpPath)) {
-                $update = $conn->prepare("UPDATE login SET image = ? WHERE id = ?");
+                $update = $conn->prepare("UPDATE LOGIN SET image = ? WHERE id = ?");
                 $update->execute([$targetWebpPath, $userId]);
                 echo "<script>alert('Profile image uploaded successfully'); window.location.href = window.location.pathname;</script>";
 
@@ -62,7 +62,7 @@ try {
 
             if ($image && imagewebp($image, $targetWebpPath, 80)) {
                 imagedestroy($image);
-                $update = $conn->prepare("UPDATE login SET image = ? WHERE id = ?");
+                $update = $conn->prepare("UPDATE LOGIN SET image = ? WHERE id = ?");
                 $update->execute([$targetWebpPath, $userId]);
                 echo "<script>alert('Profile image uploaded successfully'); window.location.href = window.location.pathname;</script>";
             } else {

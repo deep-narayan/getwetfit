@@ -52,8 +52,9 @@ if (isset($_POST['submit'])) {
       $mail->SMTPAuth   = true;
       $mail->Username   = 'noreply@getwetfit.com';
       $mail->Password   = '15@(+??ntM(8';
-      $mail->SMTPSecure = 'ssl';
+      //$mail->SMTPSecure = 'ssl';
       $mail->Port       = 25;
+      $mail->SMTPSecure = false;  
 
       
 

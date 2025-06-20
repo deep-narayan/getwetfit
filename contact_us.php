@@ -48,12 +48,12 @@ if (isset($_POST['submit'])) {
   try {
       $mail->SMTPDebug = 4;
       $mail->isSMTP();
-      $mail->Host       = 'smtpout.secureserver.net';
+      $mail->Host       = 'localhost';
       $mail->SMTPAuth   = true;
       $mail->Username   = 'noreply@getwetfit.com';
       $mail->Password   = '15@(+??ntM(8';
       $mail->SMTPSecure = 'ssl';
-      $mail->Port       = 465;
+      $mail->Port       = 25;
 
       
 

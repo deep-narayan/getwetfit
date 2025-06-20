@@ -50,15 +50,15 @@ if (isset($_POST['submit'])) {
       $mail->isSMTP();
       $mail->Host       = 'smtpout.secureserver.net';
       $mail->SMTPAuth   = true;
-      $mail->Username   = 'team@getwetfit.com';
-      $mail->Password   = 'getwetfit25';
+      $mail->Username   = 'noreply@getwetfit.com';
+      $mail->Password   = '15@(+??ntM(8';
       $mail->SMTPSecure = 'ssl';
       $mail->Port       = 465;
 
       
 
-      $mail->setFrom('team@getwetfit.com', 'GetWetFit');
-      $mail->addAddress('team@getwetfit.com');
+      $mail->setFrom('noreply@getwetfit.com', 'GetWetFit');
+      $mail->addAddress('noreply@getwetfit.com');
 
       $mail->isHTML(true);
       $mail->Subject = 'New Contact Submission - GetWetFit';

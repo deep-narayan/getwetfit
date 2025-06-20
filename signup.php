@@ -20,8 +20,9 @@ if (isset($_POST['submit'])) {
     $hash_password = password_hash($password, PASSWORD_BCRYPT);
 
     try {
-      $query = $conn->prepare("INSERT INTO login (name, contact, email, text, ccode, password) VALUES (?, ?, ?, ?, ?, ?)");
-      $query->execute([$name, $contact, $email, $password, $random_number, $hash_password]);
+      $query = $conn->prepare("INSERT INTO login (name, contact, email, text, ccode, password, date) VALUES (?, ?, ?, ?, ?, ?, NOW())");
+      $query->execute([$name, $contact, $email, $text, $ccode, $hash_password]);
+
 
       // trigger modal if successful
       $showModal = true;

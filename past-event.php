@@ -19,9 +19,11 @@ try {
     $userEmail = $user['email'];
 
     $today = date('Y-m-d');
-    $cartDetails = $conn->prepare("SELECT * FROM carts WHERE user_id = ? AND isBooked = 1 AND date < ?");
-    $cartDetails->execute([$userId,$today]);
+    $cartDetails = $conn->prepare("SELECT * FROM carts WHERE user_id = ? AND isBooked = 1");
+    $cartDetails->execute([$userId]);
     $cartItems = $cartDetails->fetchAll();
+
+
 
     $eventsRes = [];
     $totalAmount = 0;
@@ -30,8 +32,8 @@ try {
         $eventId = $cartItem['event_id'];
         $cartId = $cartItem['id'];
 
-        $eventStmt = $conn->prepare("SELECT * FROM upcomingEvents WHERE id = ?");
-        $eventStmt->execute([$eventId]);
+        $eventStmt = $conn->prepare("SELECT * FROM upcomingEvents WHERE id = ? AND date < ?");
+        $eventStmt->execute([$eventId, $today]);
         $event = $eventStmt->fetch();
 
         if ($event) {
@@ -142,10 +144,10 @@ try {
                         <span class="badge badge-info">x<?= $event['count'] ?></span>
                     </h6>
                     <div class="event-date">
-                        Time: <?= htmlspecialchars($event['slot']) ?> :
+                        <?= htmlspecialchars($event['slot']) ?> <br/>Time: 
                         <?= date("g:i A", strtotime($event['time'] ?? '07:00:00')) ?>
                     </div>
-                    <p class="mb-1"><?= date('jS M Y', strtotime($event['date'])) ?></p>
+                    <p class="mb-1">Date :<?= date('jS M Y', strtotime($event['date'])) ?></p>
                     <p class="mb-1">Contact: <?= htmlspecialchars($event['contact'] ?? 'N/A') ?></p>
                     <p class="mb-0">Location: <?= htmlspecialchars($event['state']) . " " . htmlspecialchars($event['city']) ?>.</p>
                     <p class="mb-0 font-weight-bold text-success">

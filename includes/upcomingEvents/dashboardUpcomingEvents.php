@@ -140,7 +140,7 @@ $result = $stmt->fetchAll();
                     </div>
                     <h6><?= htmlspecialchars($resultValue['type'] ?? ' ') ?></h6>
                     <div class="event-date mb-1">
-                        Time: <?= htmlspecialchars($resultValue['slot'] ?? ' ') ?> : 
+                        <?= htmlspecialchars($resultValue['slot'] ?? ' ') ?> <br/> Time: 
                         <?= date("g:i A", strtotime($resultValue['time'] ?? '07:00:00')) ?>
                     </div>
                     <p class="mb-1">Seats Available : <?= htmlspecialchars($resultValue['seats'] ?? 'N/A') ?></p>

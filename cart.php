@@ -174,7 +174,7 @@ try {
             <?php endforeach; ?>
         <?php else: ?>
             <div class="text-white text-center w-100">
-                <h5>No cart events.</h5>
+                <h5>Cart Empty.</h5>
             </div>
         <?php endif; ?>
     </div>

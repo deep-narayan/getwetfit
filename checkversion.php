@@ -1,9 +1,11 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
   require 'PHPMailer-master/src/PHPMailer.php';
   require 'PHPMailer-master/src/SMTP.php';
   require 'PHPMailer-master/src/Exception.php';
 
-use PHPMailer\PHPMailer\PHPMailer;
+
 
 if (class_exists('PHPMailer\PHPMailer\PHPMailer')) {
     echo "PHPMailer is loaded!";

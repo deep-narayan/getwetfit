@@ -9,7 +9,7 @@ if (!is_numeric($id)) {
 }
 
 // Use prepared statement with bound parameter
-$query = $conn->prepare("DELETE FROM login WHERE id = ?");
+$query = $conn->prepare("DELETE FROM LOGIN WHERE id = ?");
 $query->execute([$id]);
 
 

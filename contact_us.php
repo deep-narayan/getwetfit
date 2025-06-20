@@ -51,8 +51,8 @@ if (isset($_POST['submit'])) {
       $mail->SMTPAuth   = true;
       $mail->Username   = 'team.getwetfit@gmail.com';
       $mail->Password   = 'qsiorgpflxoslhgz';
-      $mail->SMTPSecure = 'tls';
-      $mail->Port       = 587;
+      $mail->SMTPSecure = 'ssl';
+      $mail->Port       = 465;
 
       
 

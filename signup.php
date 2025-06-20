@@ -1,7 +1,14 @@
 <?php
 include "includes/load.php";
+
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+
+
 
 $showModal = false;
 $random_number = 0;

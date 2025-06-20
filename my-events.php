@@ -19,8 +19,8 @@ try {
     $userEmail = $user['email'];
 
     $today = date('Y-m-d');
-    $cartDetails = $conn->prepare("SELECT * FROM carts WHERE user_id = ? AND isBooked = 1 AND date >= ?");
-    $cartDetails->execute([$userId,$today]);
+    $cartDetails = $conn->prepare("SELECT * FROM carts WHERE user_id = ? AND isBooked = 1");
+    $cartDetails->execute([$userId]);
     $cartItems = $cartDetails->fetchAll();
 
     $eventsRes = [];
@@ -30,8 +30,8 @@ try {
         $eventId = $cartItem['event_id'];
         $cartId = $cartItem['id'];
 
-        $eventStmt = $conn->prepare("SELECT * FROM upcomingEvents WHERE id = ?");
-        $eventStmt->execute([$eventId]);
+        $eventStmt = $conn->prepare("SELECT * FROM upcomingEvents WHERE id = ? AND date >= ?");
+        $eventStmt->execute([$eventId,$today]);
         $event = $eventStmt->fetch();
 
         if ($event) {

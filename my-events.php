@@ -152,6 +152,12 @@ try {
                         Total Seats Booked : <?= $event['count'] ?>
                     </p>
                     <hr>
+                    <p class="mb-0 font-weight-bold text-success text-center">
+                        <a href="#" class="btn btn-sm btn-outline-primary">
+                            Download Invoice
+                        </a>
+                    </p>
+
                 </div>
             <?php endforeach; ?>
         <?php else: ?>

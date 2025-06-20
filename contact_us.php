@@ -46,14 +46,14 @@ if (isset($_POST['submit'])) {
   $mail = new PHPMailer(true);
 
   try {
-      $mail->SMTPDebug = 2;
+      $mail->SMTPDebug = 4;
       $mail->isSMTP();
       $mail->Host       = 'smtpout.secureserver.net';
       $mail->SMTPAuth   = true;
       $mail->Username   = 'team@getwetfit.com';
       $mail->Password   = 'getwetfit25';
-      $mail->SMTPSecure = 'tls';
-      $mail->Port       = 587;
+      $mail->SMTPSecure = 'ssl';
+      $mail->Port       = 465;
 
       
 

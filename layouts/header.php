@@ -40,13 +40,12 @@
                     <div class="top-bar-left">
                         <div class="text">
                             <i class="far fa-clock"></i>
-                            <h2>8:00 - 9:00</h2>
-                            <p>Mon - Fri</p>
+                            <h2>11 AM - 7 PM</h2>
                         </div>
                         <div class="text">
                             <i class="fa fa-phone-alt"></i>
                             <h2>9582384888 </h2>
-                            <p>For Appointment</p>
+                            <p>For queries</p>
                         </div>
                     </div>
                 </div>

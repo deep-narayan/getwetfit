@@ -1,5 +1,6 @@
 <?php
 include 'layouts/header.php';
+include 'includes/config.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -19,6 +20,20 @@ if (isset($_POST['submit'])) {
 
   $json_data = json_encode($data);
   // ✅ Paste your SMTP code here:
+
+  $query = $conn->prepare("INSERT INTO contactusform(fullname, phoneNumber, email, age, gender, height, doYouknowHowToSwim, joinUsAs, location, message_query) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+  $query->execute([
+      $data['name'],
+      $data['number'],
+      $data['email'],
+      $data['age'],
+      $data['gender'],
+      $data['height'],
+      $data['swim'],
+      $data['join'],
+      $data['address'],
+      $data['message']
+  ]);
 
 
   require 'PHPMailer-master/src/PHPMailer.php';

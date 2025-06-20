@@ -21,7 +21,7 @@ include 'layouts/header.php';
         <div class="row align-items-center">
             <div class="col-sm-12 col-md-6 my-4">
                 <div class="hero-text">
-                    <h1>India’s First Floating Fitness Platform <span style="color: #16B2FD;"> Welcome to GetWetFit</span></h1>
+                    <h1>India’s First FITNESS ON WATER experience by <span style="color: #16B2FD;"> GETWETFIT & CO. </span></h1>
                     <p>
                     </p>
                     <div class="hero-btn">
@@ -66,15 +66,15 @@ include 'layouts/header.php';
 <!-- Online Training -->
 <div class="main-online-training-box">
     <div class="online-training1">
-        <h6>FLAABH™ </h6>
+        <h6>FLAABH™ FIT</h6>
         <img src="./assets/images/image1.webp" alt="">
     </div>
     <div class="online-training1">
-        <h6>Sound Healing</h6>
+        <h6>FLAABH™ HEAL</h6>
         <img src="./assets/images/soundhealing.webp" alt="">
     </div>
     <div class="online-training1">
-        <h6>Retreat</h6>
+        <h6>WELLNESS RETREAT</h6>
         <img src="./assets/images/comingsoon.webp" alt="">
     </div>
 </div>
@@ -113,13 +113,13 @@ include 'layouts/header.php';
     <div class="sessions-photo1">
         <div class="image-container">
             <img src="./assets/images/image6.webp" alt="">
-            <p class="image-name">FLAABH™ sessions</p>
+            <p class="image-name">FLAABH™ FIT</p>
         </div>
     </div>
     <div class="sessions-photo2">
         <div class="image-container">
             <img src="./assets/images/soundhealing.webp" alt="">
-            <p class="image-name">Sound Healing experiences</p>
+            <p class="image-name">FLAABH™ HEAL</p>
         </div>
     </div>
 </div>

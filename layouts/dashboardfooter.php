@@ -1,33 +1,64 @@
 
-    </div>
+  <!-- Footer -->
+  <!-- <footer>
+    &copy; 2025 GetWetFit. All rights reserved.
+  </footer> -->
 
-    
-  </div>
-
-  <!-- Scripts -->
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
-    const menuToggle = document.getElementById('menuToggle');
-    const mobileMenu = document.getElementById('mobileMenu');
-    let menuOpen = false;
+    const sidebar = $('#sidebar');
+    const toggleBtn = $('#toggleSidebar');
+    const icon = $('#sidebarIcon');
 
-    menuToggle.addEventListener('click', () => {
-      menuOpen = !menuOpen;
-      mobileMenu.classList.toggle('show', menuOpen);
-      mobileMenu.classList.toggle('hide', !menuOpen);
-      menuToggle.innerHTML = menuOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+    toggleBtn.on('click', function () {
+      sidebar.toggleClass('active');
+      icon.toggleClass('fa-bars fa-times');
     });
-    
 
-    window.addEventListener("resize", function () {
-        if (window.innerWidth >= 992) {
-            mobileMenu.classList.remove("show");
-            mobileMenu.classList.add("hide");
-            menuOpen = false;
-            menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+    $(document).on('click touchstart', function (e) {
+      if ($(window).width() < 768) {
+        if (!$(e.target).closest('#sidebar, #toggleSidebar').length) {
+          if (sidebar.hasClass('active')) {
+            sidebar.removeClass('active');
+            icon.removeClass('fa-times').addClass('fa-bars');
+          }
         }
+      }
     });
   </script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const bell = document.getElementById("notificationToggle");
+  const dropdown = document.getElementById("notificationDropdown");
+
+  bell.addEventListener("click", function (e) {
+    e.preventDefault();
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  });
+
+  // Hide dropdown on outside click
+  document.addEventListener("click", function (e) {
+    if (!bell.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.style.display = "none";
+    }
+  });
+</script>
+<script>
+  const profile = document.getElementById("profileToggle");
+  const profiledropdown = document.getElementById("profileDropDown");
+
+  profile.addEventListener("click", function (e) {
+    e.preventDefault();
+    profiledropdown.style.display = profiledropdown.style.display === "block" ? "none" : "block";
+  });
+
+  // Hide dropdown on outside click
+  document.addEventListener("click", function (e) {
+    if (!profile.contains(e.target) && !profiledropdown.contains(e.target)) {
+      profiledropdown.style.display = "none";
+    }
+  });
+</script>
+
 </body>
 </html>

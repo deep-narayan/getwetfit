@@ -1,32 +1,34 @@
 <?php
-if(session_id() == ""){
+if (session_id() == "") {
     session_start();
 }
-class Session{
-    private $user_is_logged_in = false;
 
-    public function login($name, $email){
-        $_SESSION['username'] = $name;
-        $_SESSION['email'] = $email;
+class Session {
 
-        $this->user_is_logged_in = true;
+    public function login($role, $email) {
+        if (isset($role) && isset($email)) {
+            $_SESSION['role'] = $role;
+            $_SESSION['email'] = $email;
+        }
     }
 
-    public function logout(){
-        unset($_SESSION['username']);
+
+
+    public function logout() {
+        unset($_SESSION['role']);
         unset($_SESSION['email']);
     }
 
-    public function isUserLogedIn(){
-        $this->user_is_logged_in;
+    public function isUserLoggedIn() {
+        return isset($_SESSION['email']) && isset($_SESSION['role']);
     }
 
-    public function flashMessage($type, $message){
-        $_SESSION['msg'] = ['type'=>$type, 'message'=>$message];
+    public function flashMessage($type, $message) {
+        $_SESSION['msg'] = ['type' => $type, 'message' => $message];
     }
 
-    public function getFlashMessage(){
-        if(isset($_SESSION['msg'])){
+    public function getFlashMessage() {
+        if (isset($_SESSION['msg'])) {
             $msg = $_SESSION['msg'];
             unset($_SESSION['msg']);
             return $msg;
@@ -34,5 +36,4 @@ class Session{
         return null;
     }
 }
-
 ?>

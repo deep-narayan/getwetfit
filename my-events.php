@@ -4,7 +4,7 @@ include 'layouts/dashboardheader.php';
 try {
     $email = $_SESSION['email'];
 
-    $getUser = $conn->prepare("SELECT * FROM login WHERE email = ?");
+    $getUser = $conn->prepare("SELECT * FROM LOGIN WHERE email = ?");
     $getUser->execute([$email]);
     $user = $getUser->fetch();
 

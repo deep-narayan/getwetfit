@@ -183,7 +183,7 @@
     <div class="text-center mt-5">
       <h4 class="text-white">🌟 It’s not just a workout. It’s a lifestyle.</h4>
       <p class="lead">No treadmills. No mirrors. No excuses.<br>Just the sound of water and a challenge under your feet.</p>
-      <a href="contact.php" class="btn btn-outline-info btn-lg mt-3">👉 Join the Fitness Wave</a>
+      <a href="contact_us.php" class="btn btn-outline-info btn-lg mt-3">👉 Join the Fitness Wave</a>
     </div>
   </div>
 </section>

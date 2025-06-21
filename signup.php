@@ -26,6 +26,18 @@ if (isset($_POST['submit'])) {
     $random_number_two = rand(10, 20);
     $hash_password = password_hash($password, PASSWORD_BCRYPT);
 
+    try{
+      $checkEmail = $conn->prepare("SELECT * FROM LOGIN WHERE email = ?");
+      $checkEmail->execute([$email]);
+      $checkEmailRes = $checkEmail->fetchAll();
+
+      if (count($checkEmailRes) > 0) {
+          echo "<script>alert('Email already exists!');</script>";
+      }
+    }catch(PDOException $e){
+      echo "<script>Email already exist!</script>";
+    }
+
     try {
       $query = $conn->prepare("INSERT INTO LOGIN (name, contact, email, text, ccode, password) VALUES (?, ?, ?, ?, ?, ?)");
       $query->execute([$name, $contact, $email, $password, $random_number, $hash_password]);

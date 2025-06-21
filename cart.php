@@ -144,7 +144,7 @@ try {
                     <p class="mb-1"><?= date('jS M Y', strtotime($event['date'])) ?></p>
                     <p class="mb-1">Contact: <?= htmlspecialchars($event['contact'] ?? 'N/A') ?></p>
                     <p class="mb-0">Location: <?= htmlspecialchars($event['state']) . " " . htmlspecialchars($event['city']) ?>.</p>
-                    <p class="mb-0 font-weight-bold text-success">
+                    <p class="mb-0 font-weight-bold text-primary">
                         Price: ₹<?= htmlspecialchars($event['price']) ?> × <?= $event['count'] ?> = ₹<?= number_format($event['price'] * $event['count'], 2) ?>
                     </p>
                     <hr>
@@ -205,7 +205,7 @@ try {
                         ?>
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             Event <?= $count++ ?> (<?= htmlspecialchars($event['type']) ?> × <?= $event['count'] ?>)
-                            <span class="text-success font-weight-bold">
+                            <span class="text-primary font-weight-bold">
                                 ₹<?= number_format($event['price'] * $event['count'], 2) ?>
                             </span>
                         </li>
@@ -213,12 +213,12 @@ try {
                 </ul>
 
                 <?php
-                if($totalEventCount > 1){
-                    $totalAmounts = floor($totalAmount/1000)*1000;
-                }else{
-                    $totalAmounts = $totalAmount;
-                }
-                
+                // if($totalEventCount > 1){
+                //     $totalAmounts = floor($totalAmount/1000)*1000;
+                // }else{
+                //     $totalAmounts = $totalAmount;
+                // }
+                $totalAmounts = $totalAmount;
                 $resEventsIds = implode(',', $eventsIds);
                 $resEventsDataJSON = htmlspecialchars(json_encode($resEventsData));
                 ?>

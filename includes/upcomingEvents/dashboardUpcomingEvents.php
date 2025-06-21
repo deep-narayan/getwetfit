@@ -38,7 +38,7 @@ $type = $_POST['type'] ?? '';
 $level = $_POST['level'] ?? '';
 
 // Build dynamic SQL with filters
-$sql = "SELECT * FROM upcomingEvents WHERE date >= :today AND isSpecialEvent = 0 AND seats != 0";
+$sql = "SELECT * FROM upcomingEvents WHERE date >= :today AND isSpecialEvent = 0 ";
 $params = [':today' => $today];
 
 if (!empty($city)) {
@@ -91,9 +91,9 @@ $result = $stmt->fetchAll();
             <label for="type" class="text-white">Type</label>
             <select class="form-control" name="type" id="type">
                 <option value="">All Types</option>
-                <option value="FLAABH™ Fit" <?= $type == 'FLAABH™ Fit' ? 'selected' : '' ?>>FLAABH™ Fit</option>
-                <option value="Sound Healing" <?= $type == 'Sound Healing' ? 'selected' : '' ?>>Sound Healing</option>
-                <option value="Retreat" <?= $type == 'Retreat' ? 'selected' : '' ?>>Retreat</option>
+                <option value="FLAABH™ FIT" <?= $type == 'FLAABH™ FIT' ? 'selected' : '' ?>>FLAABH™ FIT</option>
+                <option value="FLAABH™ HEAL" <?= $type == 'FLAABH™ HEAL' ? 'selected' : '' ?>>FLAABH™ HEAL</option>
+                <option value="WELLNESS RETREAT" <?= $type == 'WELLNESS RETREAT' ? 'selected' : '' ?>>WELLNESS RETREAT</option>
             </select>
         </div>
 

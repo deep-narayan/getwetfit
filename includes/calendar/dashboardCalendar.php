@@ -55,9 +55,15 @@ $result = $calendarQuery->fetchAll();
                 <p><?= htmlspecialchars($resultValue['seats']) ?></p>
             </div>
             <div class="col-md-1">
+                <?php if($resultValue['seats'] == 0):?>
+                    <a href="#" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">
+                    No seats Available
+                    </a>
+                <?php else:?>    
                 <a href="#" class="btn btn-primary btn-sm px-4 py-1 mt-2" style="font-size: 1rem; line-height: 1;">
                     Join
                 </a> 
+                <?php endif;?>
             </div>
         </div>
         <hr class="event-divider" style="border-color:#FCFCFC; background-color:#FCFCFC; opacity:1;">

@@ -158,7 +158,7 @@ $result = $stmt->fetchAll();
                             $totalSeats = $resultValue['seats'];
                             if ($count >= $totalSeats):?>
                             <span class="text-danger font-weight-bold">No more seats</span>
-                        <?php elseif($resultValue['seats']== 0): ?>    
+                        <?php elseif($totalSeats == 0): ?>    
                             <a href="#" 
                                 class="btn btn-outline-primary btn-sm font-weight-bold rounded-right px-4">
                                 No Seats Available

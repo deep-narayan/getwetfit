@@ -158,11 +158,16 @@ $result = $stmt->fetchAll();
                             $totalSeats = $resultValue['seats'];
                             if ($count >= $totalSeats):?>
                             <span class="text-danger font-weight-bold">No more seats</span>
-                        <?php else: ?>    
-                        <a href="add_cart.php?id=<?= $resultValue['id'] ?>" 
-                            class="btn btn-outline-primary btn-sm font-weight-bold rounded-right px-4">
-                            Add
-                        </a>
+                        <?php elseif($resultValue['seats']== 0): ?>    
+                            <a href="#" 
+                                class="btn btn-outline-primary btn-sm font-weight-bold rounded-right px-4">
+                                No Seats Available
+                            </a>
+                        <?php else: ?>
+                            <a href="add_cart.php?id=<?= $resultValue['id'] ?>" 
+                                class="btn btn-outline-primary btn-sm font-weight-bold rounded-right px-4">
+                                Add
+                            </a>
                         <?php endif; ?>
                     </div>
                     <?php else: ?>

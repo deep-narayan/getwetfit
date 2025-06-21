@@ -142,7 +142,7 @@ try {
                         <span class="badge badge-info">x<?= $event['count'] ?></span>
                     </h6>
                     <div class="event-date">
-                        Time: <?= htmlspecialchars($event['slot']) ?> :
+                        <?= htmlspecialchars($event['slot']) ?> <br/>Time: 
                         <?= date("g:i A", strtotime($event['time'] ?? '07:00:00')) ?>
                     </div>
                     <p class="mb-1"><?= date('jS M Y', strtotime($event['date'])) ?></p>

@@ -127,10 +127,10 @@ $result = $getAllUpcomingEvents->fetchAll();
 
  
   <!-- Pagination controls -->
-<div class="d-flex justify-content-center mt-3">
-  <nav>
-    <ul class="pagination" id="pagination"></ul>
-  </nav>
+<div class="d-flex justify-content-center align-items-center p-2 mt-3">
+  <button class="btn btn-primary mr-2" id="prevBtn">Previous</button>
+  <span id="pageInfo" class="mx-2 text-white">Page 1 of X</span>
+  <button class="btn btn-primary ml-2" id="nextBtn">Next</button>
 </div>
 
 </div>
@@ -139,69 +139,38 @@ $result = $getAllUpcomingEvents->fetchAll();
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function () {
-    let rowsPerPage = 5;
+    let rowsPerPage = 2;
     let rows = $('#table-data tr');
-    let rowsCount = rows.length;
-    let pageCount = Math.ceil(rowsCount / rowsPerPage);
-    let pagination = $('#pagination');
+    let totalPages = Math.ceil(rows.length / rowsPerPage);
     let currentPage = 1;
 
     function showPage(page) {
-      let start = (page - 1) * rowsPerPage;
-      let end = start + rowsPerPage;
-      rows.hide().slice(start, end).show();
+      rows.hide();
+      rows.slice((page - 1) * rowsPerPage, page * rowsPerPage).show();
+      $('#pageInfo').text('Page ' + page + ' of ' + totalPages);
     }
 
-    function renderPagination() {
-      pagination.empty();
-
-      // Previous button
-      pagination.append(`<li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
-        <a class="page-link" href="#" id="prevPage">Previous</a>
-      </li>`);
-
-      // Page numbers
-      for (let i = 1; i <= pageCount; i++) {
-        pagination.append(`<li class="page-item ${i === currentPage ? 'active' : ''}">
-          <a class="page-link page-num" href="#">${i}</a>
-        </li>`);
-      }
-
-      // Next button
-      pagination.append(`<li class="page-item ${currentPage === pageCount ? 'disabled' : ''}">
-        <a class="page-link" href="#" id="nextPage">Next</a>
-      </li>`);
+    function toggleButtons() {
+      $('#prevBtn').prop('disabled', currentPage === 1);
+      $('#nextBtn').prop('disabled', currentPage === totalPages);
     }
 
-    // Initial render
     showPage(currentPage);
-    renderPagination();
+    toggleButtons();
 
-    // Handle page number click
-    pagination.on('click', '.page-num', function (e) {
-      e.preventDefault();
-      currentPage = parseInt($(this).text());
-      showPage(currentPage);
-      renderPagination();
-    });
-
-    // Handle previous click
-    pagination.on('click', '#prevPage', function (e) {
-      e.preventDefault();
+    $('#prevBtn').click(function () {
       if (currentPage > 1) {
         currentPage--;
         showPage(currentPage);
-        renderPagination();
+        toggleButtons();
       }
     });
 
-    // Handle next click
-    pagination.on('click', '#nextPage', function (e) {
-      e.preventDefault();
-      if (currentPage < pageCount) {
+    $('#nextBtn').click(function () {
+      if (currentPage < totalPages) {
         currentPage++;
         showPage(currentPage);
-        renderPagination();
+        toggleButtons();
       }
     });
   });

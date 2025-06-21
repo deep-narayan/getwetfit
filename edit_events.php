@@ -24,6 +24,8 @@ if (isset($_POST['submit'])) {
     $contact = $_POST['contact'];
     $date = $_POST['date'];
     $placeName = $_POST['venue'];
+    $price = $_POST['price'];
+    $seats = $_POST['seats'];
     $is_special = ($_POST['special_event'] === "Yes") ? 1 : 0;
 
     // Default to existing image
@@ -74,8 +76,8 @@ if (isset($_POST['submit'])) {
 
 
     // Final Update Query
-    $upcomingEventsQuery = $conn->prepare("UPDATE upcomingEvents SET type = ?, level = ?, imageUrl = ?, contact = ?, date = ?, isSpecialEvent = ?, state = ?, city = ?, time = ?, slot = ?, addPlace = ? WHERE id = ?");
-    $upcomingEventsQuery->execute([$session_type, $level, $imageUrl, $contact, $date, $is_special, $state, $city, $time, $slot, $placeName, $id]);
+    $upcomingEventsQuery = $conn->prepare("UPDATE upcomingEvents SET type = ?, level = ?, imageUrl = ?, contact = ?, date = ?, isSpecialEvent = ?, state = ?, city = ?, time = ?, slot = ?, addPlace = ?, price = ? , seats=? WHERE id = ?");
+    $upcomingEventsQuery->execute([$session_type, $level, $imageUrl, $contact, $date, $is_special, $state, $city, $time, $slot, $placeName,$price, $seats, $id]);
 
     echo "<script>alert('Event updated successfully.'); window.location.href='manageUpcomingEvents.php';</script>";
 }
@@ -193,6 +195,14 @@ if (isset($_POST['submit'])) {
                         <input class="form-check-input" type="radio" name="special_event" value="No" <?= !$getAllEventsResult[0]['isSpecialEvent'] ? 'checked' : '' ?>>
                         <label class="form-check-label">No</label>
                     </div>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price (Including GST*)</label>
+                    <input type="text" class="form-control" placeholder="Add price" name="price" value="<?= htmlspecialchars($getAllEventsResult[0]['price']) ?>" required />
+                </div>
+                <div class="form-group">
+                    <label for="seats">Seats</label>
+                    <input type="text" class="form-control" placeholder="add seats" name="seats" value="<?= htmlspecialchars($getAllEventsResult[0]['date']) ?>" required />
                 </div>
 
                 <button type="submit" name="submit" class="btn btn-success btn-block">Update</button>

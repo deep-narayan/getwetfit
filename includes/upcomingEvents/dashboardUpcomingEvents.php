@@ -155,8 +155,8 @@ $result = $stmt->fetchAll();
                             +<?= $count ?>
                         </button>
                         <?php 
-                            $eventSeats = $resultValue['seats'];
-                            if ($count >= $eventSeats):?>
+                            $totalSeats = $resultValue['seats'];
+                            if ($count >= $totalSeats):?>
                             <span class="text-danger font-weight-bold">No more seats</span>
                         <?php else: ?>    
                         <a href="add_cart.php?id=<?= $resultValue['id'] ?>" 

@@ -38,7 +38,7 @@ $type = $_POST['type'] ?? '';
 $level = $_POST['level'] ?? '';
 
 // Build dynamic SQL with filters
-$sql = "SELECT * FROM upcomingEvents WHERE date >= :today AND isSpecialEvent = 0";
+$sql = "SELECT * FROM upcomingEvents WHERE date >= :today AND isSpecialEvent = 0 AND seats != 0";
 $params = [':today' => $today];
 
 if (!empty($city)) {

@@ -39,13 +39,15 @@ if ($generated_signature === $razorpay_signature) {
     $status = $payment['status']; // captured, failed, refunded
     $amount = $payment['amount'];
 
+    $today = $date('Y-m-d');
+
     $insertBooke = $conn->prepare("
-        INSERT INTO bookedevent(user_id, event_ids, payment_id, order_id, method, card_type, status, amount, currency)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO bookedevent(user_id, event_ids, payment_id, order_id, method, card_type, status, amount, currency, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ");
     $insertBooke->execute([
         $user_id, $events, $razorpay_payment_id, $razorpay_order_id,
-        $method, $card_type, $status, $amount, 'INR'
+        $method, $card_type, $status, $amount, 'INR',$today
     ]);
 
     $eventsData = json_decode($events, true);

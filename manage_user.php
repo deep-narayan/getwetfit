@@ -138,37 +138,51 @@ $result = $getAllUpcomingEvents->fetchAll();
 <script>
   $(document).ready(function () {
     let rowsPerPage = 2;
-    let rows = $('#table-data tr');
-    let totalPages = Math.ceil(rows.length / rowsPerPage);
     let currentPage = 1;
 
+    function getFilteredRows() {
+      let value = $('#searchInput').val().toLowerCase();
+      return $('#table-data tr').filter(function () {
+        let match = $(this).text().toLowerCase().indexOf(value) > -1;
+        $(this).toggle(match);
+        return match;
+      });
+    }
+
     function showPage(page) {
-      rows.hide();
-      rows.slice((page - 1) * rowsPerPage, page * rowsPerPage).show();
-      $('#pageInfo').text('Page ' + page + ' of ' + totalPages);
+      let filteredRows = getFilteredRows();
+      let totalPages = Math.ceil(filteredRows.length / rowsPerPage);
+
+      filteredRows.hide();
+      filteredRows.slice((page - 1) * rowsPerPage, page * rowsPerPage).show();
+
+      $('#pageInfo').text('Page ' + page + ' of ' + (totalPages || 1));
+      $('#prevBtn').prop('disabled', page <= 1);
+      $('#nextBtn').prop('disabled', page >= totalPages);
+
+      return totalPages;
     }
 
-    function toggleButtons() {
-      $('#prevBtn').prop('disabled', currentPage === 1);
-      $('#nextBtn').prop('disabled', currentPage === totalPages);
-    }
-
+    // Initial load
     showPage(currentPage);
-    toggleButtons();
+
+    $('#searchInput').on('keyup', function () {
+      currentPage = 1;
+      showPage(currentPage);
+    });
 
     $('#prevBtn').click(function () {
       if (currentPage > 1) {
         currentPage--;
         showPage(currentPage);
-        toggleButtons();
       }
     });
 
     $('#nextBtn').click(function () {
+      let totalPages = showPage(currentPage); // recalc based on current filter
       if (currentPage < totalPages) {
         currentPage++;
         showPage(currentPage);
-        toggleButtons();
       }
     });
   });

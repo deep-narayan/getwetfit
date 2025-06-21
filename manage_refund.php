@@ -80,7 +80,7 @@ $result = $getAllRefund->fetchAll();
           <?php foreach ($result as $index => $row): ?>
             <?php
               $userId = $row['refunded_at'];
-              $userDetails = $conn->prepare("SELECT * FROM login WHERE id = ?");
+              $userDetails = $conn->prepare("SELECT * FROM LOGIN WHERE id = ?");
               $userDetails->execute([$userId]);
               $userDetailsRes = $userDetails->fetch();
               $usersName = $userDetailsRes['name'];

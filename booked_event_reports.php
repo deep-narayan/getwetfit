@@ -96,7 +96,7 @@ $msg = $session->getFlashMessage();
               $eventsIds = json_decode($row['event_ids'], true);
               $count = $eventsIds[0]['count'];
               $userId = $row['user_id'];
-              $userDetails = $conn->prepare("SELECT * FROM login WHERE id = ?");
+              $userDetails = $conn->prepare("SELECT * FROM LOGIN WHERE id = ?");
               $userDetails->execute([$userId]);
               $userDetailsRes = $userDetails->fetch();
               $usersName = $userDetailsRes['name'];

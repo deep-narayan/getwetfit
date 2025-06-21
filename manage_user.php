@@ -6,7 +6,7 @@ if ($role !== 'admin') {
 }
 
 
-$getAllUpcomingEvents = $conn->prepare("SELECT * FROM login ORDER BY id DESC");
+$getAllUpcomingEvents = $conn->prepare("SELECT * FROM LOGIN ORDER BY id DESC");
 $getAllUpcomingEvents->execute();
 $result = $getAllUpcomingEvents->fetchAll();
 ?>

@@ -149,30 +149,30 @@ $result = $stmt->fetchAll();
                     <p class="mb-1">Contact: <?= htmlspecialchars($resultValue['contact'] ?? 'N/A') ?></p>
                     <p class="mb-0">Location: <?= htmlspecialchars($resultValue['state'] ?? ' ') . " " . htmlspecialchars($resultValue['city'] ?? ' ') . " " . htmlspecialchars($resultValue['addPlace'] ?? ' ') ?>.</p>
                     <hr>
-                    <?php if($count > 0) :?>
-                    <div class="d-flex align-items-center">
-                        <button class="btn btn-outline-secondary btn-sm font-weight-bold rounded-left px-3 mr-2">
-                            +<?= $count ?>
-                        </button>
-                        <?php 
-                            $totalSeats = $resultValue['seats'];
-                            if ($count >= $totalSeats):?>
-                            <span class="text-danger font-weight-bold">No more seats</span>
-                        <?php elseif($totalSeats == 0): ?>    
-                            <a href="#" 
-                                class="btn btn-outline-primary btn-sm font-weight-bold rounded-right px-4">
-                                No Seats Available
-                            </a>
-                        <?php else: ?>
-                            <a href="add_cart.php?id=<?= $resultValue['id'] ?>" 
-                                class="btn btn-outline-primary btn-sm font-weight-bold rounded-right px-4">
-                                Add
-                            </a>
+                    <?php if($resultValue['seats'] != 0): ?>
+                        <?php if($count > 0) :?>
+                            <div class="d-flex align-items-center">
+                                <button class="btn btn-outline-secondary btn-sm font-weight-bold rounded-left px-3 mr-2">
+                                    +<?= $count ?>
+                                </button>
+
+                                <?php 
+                                    $totalSeats = $resultValue['seats'];
+                                    if ($count >= $totalSeats):?>
+                                    <span class="text-danger font-weight-bold">No more seats</span>
+                                <?php else: ?>    
+                                <a href="add_cart.php?id=<?= $resultValue['id'] ?>" 
+                                    class="btn btn-outline-primary btn-sm font-weight-bold rounded-right px-4">
+                                    Add
+                                </a>
+                                <?php endif; ?>
+                            </div>
+                            <?php else: ?>
+                            <a href="add_cart.php?id=<?= $resultValue['id'] ?>" class="btn btn-outline-primary btn-sm font-weight-bold">Add to Cart</a>
                         <?php endif; ?>
-                    </div>
                     <?php else: ?>
-                    <a href="add_cart.php?id=<?= $resultValue['id'] ?>" class="btn btn-outline-primary btn-sm font-weight-bold">Add to Cart</a>
-                    <?php endif; ?>
+                        <a  class="btn btn-outline-primary btn-sm font-weight-bold">No Seats Available</a>
+                    <?php endif; ?>    
                 </div>
             <?php endforeach; ?>
         <?php else: ?>

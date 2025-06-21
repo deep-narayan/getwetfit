@@ -107,11 +107,16 @@ $msg = $session->getFlashMessage();
               <td>
                 <?php
                   foreach ($eventsIds as $ids) {
-                    $eventId = $ids['event_id'];
-                    $eventName = $conn->prepare("SELECT type FROM upcomingEvents WHERE id = ?");
-                    $eventName->execute([$eventId]);
-                    $eventNameRes = $eventName->fetch();
-                    echo htmlspecialchars($eventNameRes['type']) . " -- quantity -- " . $count . "<br>";
+                    try{
+                         $eventId = $ids['event_id'];
+                          $eventName = $conn->prepare("SELECT type FROM upcomingEvents WHERE id = ?");
+                          $eventName->execute([$eventId]);
+                          $eventNameRes = $eventName->fetch();
+                          echo htmlspecialchars($eventNameRes['type']) . " -- quantity -- " . $count . "<br>";
+                    }catch(PDOException $e){
+                          echo htmlspecialchars("Event is removed by admin!");
+                    }
+                   
                   }
                 ?>
               </td>

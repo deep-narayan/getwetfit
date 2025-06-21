@@ -155,7 +155,7 @@ $result = $stmt->fetchAll();
                             +<?= $count ?>
                         </button>
                         <?php 
-                            $$eventSeats = $resultValue['seats'];
+                            $eventSeats = $resultValue['seats'];
                             if ($count >= $eventSeats):?>
                             <span class="text-danger font-weight-bold">No more seats</span>
                         <?php else: ?>    
